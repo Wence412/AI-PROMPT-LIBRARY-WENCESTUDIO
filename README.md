@@ -124,8 +124,11 @@ AI Prompts Library/
 
 ## 📜 License
 
-This prompt library is provided for professional and personal use. Attribution appreciated but not required.
+Copyright 2025 WenceStudio by SmartDesign
+
+   Licensed under the Apache License, Version 2.0
+
 
 ---
 
-**Built with by WenceStudio | December 2025**
+**Built with WenceStudio by SmartDesign | December 2025**
