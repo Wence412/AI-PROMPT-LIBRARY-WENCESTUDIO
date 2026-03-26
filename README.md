@@ -128,4 +128,4 @@ This prompt library is provided for professional and personal use. Attribution a
 
 ---
 
-**Built with 🧠 by WenceStudio | December 2025**
+**Built with 🧠 WenceStudio by SmartDesign | December 2025**
