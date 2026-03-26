@@ -11,7 +11,7 @@
 | **Total Categories** | 17 |
 | **Total Prompts** | 72 |
 | **Difficulty Range** | ⭐ Basic to ⭐⭐⭐ Advanced |
-| **Last Updated** | December 2025 |
+| **Last Updated** | February 2026 |
 
 ---
 
