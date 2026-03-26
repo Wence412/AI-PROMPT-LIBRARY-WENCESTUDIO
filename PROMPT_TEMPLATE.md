@@ -14,12 +14,12 @@
 
 ## ⚙️ Platform Compatibility
 
-| Engine | Rating | Optimal Configuration |
-| :--- | :--- | :--- |
+| Platform | Rating | Notes |
+|----------|--------|-------|
 | **ChatGPT (GPT-5.4)** | ✅ / ⚡ / ⚠️ | Set 'Thinking Effort' to [Standard/Extended] |
 | **Claude (4.6 Opus)** | ✅ / ⚡ / ⚠️ | Best for XML-tagged complex logic |
-| **Gemini (3.1 Pro)** | ✅ / ⚡ / ⚠️ | Use for 1M+ token context or live grounding |
-| **Perplexity Pulse** | ✅ / ⚡ / ⚠️ | Use for real-time citations & search |
+| **Gemini (3.1 Pro)** | ✅ / ⚡ / ⚠️  | Use for 1M+ token context or live grounding |
+| **Perplexity Pulse** | ✅ / ⚡ / ⚠️  | Use for real-time citations & search |
 
 ---
 
