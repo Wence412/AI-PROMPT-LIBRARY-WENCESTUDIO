@@ -1,17 +1,18 @@
 # 📄 PROMPT\_TEMPLATE.md (Reasoning-Aware)
 
 ````markdown
+
 # [Prompt Name]
 
 ## 📋 Metadata
 - **Category**: [Category Name]
 - **Difficulty**: ⭐ / ⭐⭐ / ⭐⭐⭐ (Basic / Intermediate / Agentic)
-- **Last Updated**: 2026-03-26
+- **Last Updated**: 2026-02-26
 - **Version**: 2.0 (Reasoning-Optimized)
 
 ---
 
-## ⚙️ 2026 Platform Compatibility
+## ⚙️ Platform Compatibility
 
 | Engine | Rating | Optimal Configuration |
 | :--- | :--- | :--- |
@@ -80,7 +81,7 @@ If [Condition], then [Alternative Action]. Do not hallucinate data; if unknown, 
 
 -----
 
-## 💡 2026 Pro Tips
+## 💡 Pro Tips
 
 1.  **Thinking Depth:** For GPT-5, always explicitly state if you want "Extended Thinking" to avoid wasting tokens on simple tasks.
 2.  **Claude Artifacts:** If this prompt generates code or UI, instruct Claude to "Render in a Preview Artifact."
