@@ -1,6 +1,6 @@
 # 🚀 AI Prompts Library - Professional Edition
 
-> **A comprehensive collection of 70+ production-ready AI prompts** leveraging 2025 best practices with platform-specific recommendations.
+> **A comprehensive collection of 70+ production-ready AI prompts** leveraging 2026 best practices with platform-specific recommendations.
 
 ---
 
@@ -28,7 +28,7 @@
 
 ---
 
-## 🎯 2025 Prompt Engineering Techniques
+## 🎯 2026 Prompt Engineering Techniques
 
 This library implements cutting-edge techniques:
 
@@ -52,9 +52,9 @@ This library implements cutting-edge techniques:
 
 | Platform | Strengths | Best For |
 |----------|-----------|----------|
-| **ChatGPT (GPT-4o/o1)** | Reasoning, coding, versatility | General tasks, software, analysis |
-| **Claude (Sonnet 3.5/Opus)** | Long context, nuanced writing | Documents, creative, legal |
-| **Gemini (Pro/Ultra)** | Multimodal, Google integration | Research, visualizations |
+| **ChatGPT (GPT-5.2/5.4 Thinking)** | Reasoning, coding, versatility | General tasks, software, analysis |
+| **Claude (Sonnet 4.6/Opus)** | Long context, nuanced writing | Documents, creative, legal |
+| **Gemini (3.1 Pro/Ultra)** | Multimodal, Google integration | Research, visualizations |
 | **Perplexity** | Real-time search, citations | Current research, fact-checking |
 | **Copilot** | Microsoft 365 integration | Enterprise workflows |
 | **Mistral/Llama** | Open-source, privacy | Local deployment |
@@ -118,7 +118,7 @@ AI Prompts Library/
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2025-12-19 | Initial release with 70+ prompts |
+| 2.0.0 | 2026 | Initial release with 70+ prompts |
 
 ---
 
@@ -128,4 +128,4 @@ This prompt library is provided for professional and personal use. Attribution a
 
 ---
 
-**Built with 🧠 WenceStudio by SmartDesign | December 2025**
+**Built with 🧠 WenceStudio by SmartDesign | 2026**
