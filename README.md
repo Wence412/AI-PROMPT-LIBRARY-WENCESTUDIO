@@ -1,131 +1,78 @@
-# 🚀 AI Prompts Library - Professional Edition
+# 🚀 AI-PROMPT-LIBRARY-WENCESTUDIO | 2026 Edition
 
-> **A comprehensive collection of 70+ production-ready AI prompts** leveraging 2026 best practices with platform-specific recommendations.
+> **A professional-grade collection of 70+ Reasoning-Aware prompts.** Optimized for GPT-5 (o2), Claude 4.6, and Gemini 3.1, leveraging agentic workflows and extended thinking protocols.
 
----
+-----
 
-## 📚 Quick Navigation
+## 🧠 Why This Library is Different (2026 Standards)
 
-| Category | Prompts | Best Platforms |
-|----------|---------|----------------|
-| [01 - Analyze Text](./01-Analyze-Text/) | 4 | Claude, ChatGPT |
-| [02 - Coaching](./02-Coaching/) | 4 | Claude, ChatGPT |
-| [03 - Content Creation](./03-Content-Creation/) | 5 | ChatGPT, Gemini |
-| [04 - Creative Arts](./04-Creative-Arts/) | 4 | Claude, ChatGPT |
-| [05 - Cybersecurity](./05-Cybersecurity/) | 4 | ChatGPT, Perplexity |
-| [06 - Entrepreneurs](./06-Entrepreneurs/) | 5 | ChatGPT, Claude |
-| [07 - Gaming](./07-Gaming/) | 4 | ChatGPT, Claude |
-| [08 - Job Search](./08-Job-Search/) | 5 | ChatGPT, Claude |
-| [09 - Lawyers](./09-Lawyers/) | 4 | Claude, Perplexity |
-| [10 - Meetings](./10-Meetings/) | 4 | Copilot, ChatGPT |
-| [11 - Product Managers](./11-Product-Managers/) | 5 | ChatGPT, Claude |
-| [12 - Prompt Management](./12-Prompt-Management/) | 4 | ChatGPT, Claude |
-| [13 - Psychology](./13-Psychology/) | 4 | Claude, ChatGPT |
-| [14 - Real Estate](./14-Real-Estate/) | 4 | ChatGPT, Gemini |
-| [15 - Software Engineers](./15-Software-Engineers/) | 5 | ChatGPT, Claude |
-| [16 - Students & School](./16-Students-School/) | 5 | ChatGPT, Claude |
-| [17 - Visualizations](./17-Visualizations/) | 4 | Gemini, ChatGPT |
+Unlike static legacy prompts, this library utilizes **Cognitive Architecture**:
 
----
+  * **[THINKING CONFIG]:** Explicit instructions to trigger "Extended Thinking" modes in 2026 models.
+  * **Agentic Hooks:** Prompts designed to act as "Orchestrators" for sub-agents and tool-calling.
+  * **Multi-Model Optimized:** Specific syntax for Claude's XML tags, ChatGPT's Canvas, and Gemini's 2M context.
 
-## 🎯 2026 Prompt Engineering Techniques
+-----
 
-This library implements cutting-edge techniques:
+## 📚 Quick Navigation & Engine Recommendations
 
-### Core Techniques
-- **🔗 Chain-of-Thought (CoT)** - Step-by-step reasoning for complex tasks
-- **📝 Few-Shot Learning** - Examples within prompts for consistent outputs
-- **🎭 Role/Persona Assignment** - Expert identity for domain knowledge
-- **📋 Structured Output** - Defined formats (JSON, Markdown, Tables)
+| Category | Prompts | Primary Engine (2026) |
+| :--- | :--- | :--- |
+| **[01 - Analyze Text](https://www.google.com/search?q=./01-Analyze-Text/)** | 4 | **Claude 4.6** (Nuance) |
+| **[03 - Content Creation](https://www.google.com/search?q=./03-Content-Creation/)** | 5 | **Claude 4.6** (Prose) |
+| **[06 - Entrepreneurs](https://www.google.com/search?q=./06-Entrepreneurs/)** | 5 | **GPT-5.4** (Strategy) |
+| **[09 - Lawyers](https://www.google.com/search?q=./09-Lawyers/)** | 4 | **Claude 4.6** (Legal/XML) |
+| **[15 - Software Engineers](https://www.google.com/search?q=./15-Software-Engineers/)** | 5 | **GPT-5 o2** / **Claude 4.6** |
+| **[17 - Visualizations](https://www.google.com/search?q=./17-Visualizations/)** | 4 | **Gemini 3.1** (Multimodal) |
 
-### Advanced Techniques
-- **🌳 Tree-of-Thoughts** - Multi-path reasoning for creative tasks
-- **🔄 Self-Consistency** - Multiple reasoning validation
-- **🧠 Meta Prompting** - Process-focused instructions
-- **⚡ Recursive Self-Improvement** - Iterative output refinement
+> See the full **[CATALOG.md](https://www.google.com/search?q=./CATALOG.md)** for all 17 categories and specific model assignments.
 
----
+-----
 
-## 💻 Platform Guide
+## 🎯 Advanced 2026 Techniques Included
 
-### Primary Platforms
+  * **🧠 Reasoning-Chain (RC):** Forcing models to use internal "monologue" before generating answers.
+  * **🛠️ Tool-Augmented Generation (TAG):** Instructions for leveraging Live Search, Code Interpreter, and Drive.
+  * **🎭 Dynamic Persona Swapping:** Expert identities that adapt based on the complexity of the "Thinking" output.
+  * **📦 XML Structural Isolation:** Using `<context>` and `<thought>` tags to prevent instruction drift in long-form tasks.
 
-| Platform | Strengths | Best For |
-|----------|-----------|----------|
-| **ChatGPT (GPT-5.2/5.4 Thinking)** | Reasoning, coding, versatility | General tasks, software, analysis |
-| **Claude (Sonnet 4.6/Opus)** | Long context, nuanced writing | Documents, creative, legal |
-| **Gemini (3.1 Pro/Ultra)** | Multimodal, Google integration | Research, visualizations |
-| **Perplexity** | Real-time search, citations | Current research, fact-checking |
-| **Copilot** | Microsoft 365 integration | Enterprise workflows |
-| **Mistral/Llama** | Open-source, privacy | Local deployment |
+-----
 
-### Platform Compatibility Icons
-- ✅ **Optimal** - Best performance on this platform
-- ⚡ **Good** - Works well with minor adjustments
-- ⚠️ **Limited** - Basic functionality only
+## 💻 Platform Strategy
 
----
+| Platform | Best For | New 2026 Feature |
+| :--- | :--- | :--- |
+| **ChatGPT (o2/GPT-5)** | Logic, Coding, Agents | **Thinking Effort Slider** support |
+| **Claude 4.6** | Legal, Creative, Large Docs | **Artifacts 2.0** execution |
+| **Gemini 3.1** | Massive Context, Video | **2M Token Grounding** |
+| **Perplexity Pulse** | Market Research | **Live Citation Map** |
 
-## 📖 How to Use
+-----
 
-### 1. Find Your Prompt
-Navigate to the relevant category folder or use the [Master Catalog](./CATALOG.md).
+## 📖 Deployment Guide
 
-### 2. Check Compatibility
-Each prompt includes a platform compatibility table showing optimal platforms.
+1.  **Select Engine:** Consult the [PLATFORM\_GUIDE.md](https://www.google.com/search?q=./PLATFORM_GUIDE.md).
+2.  **Configure Thinking:** Set the model's "Thinking Depth" to **Extended** for complex prompts.
+3.  **Variable Injection:** Populate `{{variable}}` placeholders with your data.
+4.  **Execute & Iterate:** Use the built-in feedback loops within each prompt to refine the output.
 
-### 3. Fill Variables
-Replace `{{variable}}` placeholders with your specific content:
-```
-{{topic}} → "Machine Learning"
-{{audience}} → "Technical managers"
-{{tone}} → "Professional"
+-----
+
+## 📁 Repository Structure
+
+```text
+AI-PROMPT-LIBRARY-WENCESTUDIO/
+├── CATALOG.md             ← Master index by model & difficulty
+├── PLATFORM_GUIDE.md      ← 2026 Platform Comparison Matrix
+├── LICENSE / NOTICE       ← Apache 2.0 Legal & Attribution
+├── .templates/            ← [Reasoning-Aware] Template Standard
+└── [Categories]/          ← 17 folders of production prompts
 ```
 
-### 4. Copy & Paste
-Use the prompt directly in your preferred AI platform.
+-----
 
-### 5. Iterate
-Use the included optimization tips to refine outputs.
+## 📜 License & Attribution
 
----
+**Copyright 2026 WenceStudio by SmartDesign** Licensed under the [Apache License 2.0](https://www.google.com/search?q=./LICENSE). Please see the [NOTICE](https://www.google.com/search?q=./NOTICE) file for attribution requirements.
 
-## 🏷️ Difficulty Levels
-
-- ⭐ **Basic** - Simple, single-purpose prompts
-- ⭐⭐ **Intermediate** - Multi-step with variables
-- ⭐⭐⭐ **Advanced** - Complex reasoning, chains, or agentic
-
----
-
-## 📁 Library Structure
-
-```
-AI Prompts Library/
-├── README.md              ← You are here
-├── CATALOG.md             ← Master index
-├── PLATFORM_GUIDE.md      ← Detailed platform comparison
-├── .templates/            ← Prompt template standard
-│   └── PROMPT_TEMPLATE.md
-└── [17 Category Folders]/ ← Organized prompts
-    ├── README.md          ← Category overview
-    └── [prompts].md       ← Individual prompts
-```
-
----
-
-## 🔄 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0.0 | 2026 | Initial release with 70+ prompts |
-
----
-
-## 📜 License
-
-This prompt library is provided for professional and personal use. Attribution appreciated but not required.
-
----
-
-**Built with 🧠 WenceStudio by SmartDesign | 2026**
+-----
