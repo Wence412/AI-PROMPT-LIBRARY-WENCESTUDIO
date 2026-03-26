@@ -71,7 +71,7 @@
 
 ## 🔧 2026 Universal Prompt Syntax
 
-To ensure your [PROMPT_LIBRARY](https://github.com/Wence412/AI-PROMPT-LIBRARY-WENCESTUDIO) remains compatible across all platforms, use this **Hybrid Structure**:
+To ensure your [PROMPT](https://github.com/Wence412/AI-PROMPT-LIBRARY-WENCESTUDIO) remains compatible across all platforms, use this **Hybrid Structure**:
 
 ```markdown
 # [META-CONFIG]
