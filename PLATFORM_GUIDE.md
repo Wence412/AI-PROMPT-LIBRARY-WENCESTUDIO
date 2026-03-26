@@ -1,319 +1,106 @@
-# 🌐 AI Platform Guide - 2025 Edition
+# 🌐 AI Platform Guide - 2026 Edition
 
-> **Comprehensive guide to choosing the right AI platform for your prompts**
+> **The definitive matrix for selecting the optimal Reasoning Engine and Agentic Framework for your studio workflows.**
 
 ---
 
-## 📊 Platform Comparison Matrix
+## 📊 2026 Platform Comparison Matrix
 
-| Feature | ChatGPT | Claude | Gemini | Perplexity | Copilot | Mistral |
-|---------|---------|--------|--------|------------|---------|---------|
-| **Context Window** | 128K | 200K | 1M+ | 128K | 128K | 32-128K |
-| **Reasoning** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| **Coding** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| **Creative Writing** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
-| **Research/Search** | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ |
-| **Multimodal** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| **Enterprise** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| **Privacy** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Speed** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Cost** | $$ | $$ | $ | $ | $$$ | Free/$ |
+| Feature | ChatGPT (o2/GPT-5) | Claude 4.6 | Gemini 3.1 | Perplexity Pulse | Copilot (365+) | Llama 4.0 (OS) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Context Window** | 512K - 1M | 1M+ | **2M+** | 256K | 512K | 128K - 512K |
+| **Reasoning Depth** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
+| **Agentic Autonomy**| ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| **Creative Nuance** | ⭐⭐⭐⭐ | **⭐⭐⭐⭐⭐** | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
+| **Live Grounding** | ⭐⭐⭐⭐ | ⭐⭐⭐ | **⭐⭐⭐⭐⭐** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ |
+| **Privacy/Local** | ⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ | **⭐⭐⭐⭐⭐** |
+| **Speed (Tokens/s)**| ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 
 ---
 
 ## 🤖 Detailed Platform Profiles
 
-### ChatGPT (OpenAI GPT-4o / o1)
+### ChatGPT (OpenAI GPT-5.4 / o2-Thinking)
+**Best Models**: `gpt-5-thinking-extended` (Deep Research), `o2-mini` (Logic-heavy code)
 
-**Best Models**: GPT-4o (balanced), o1 (reasoning), o1-mini (fast reasoning)
-
-**Strengths**:
-- Excellent general-purpose reasoning
-- Strong coding capabilities
-- Great at following complex instructions
-- Robust function calling / tool use
-- Wide plugin ecosystem
-
-**Optimal Use Cases**:
-- Software engineering prompts
-- Complex analysis and reasoning
-- Multi-step workflows
-- Data processing
-- General business tasks
-
-**Prompt Tips**:
-```
-- Use clear, direct instructions
-- Specify output format explicitly
-- Leverage system prompts for persona
-- Use markdown formatting in prompts
-- Chain of thought works excellently
-```
-
-**Limitations**:
-- Knowledge cutoff (though browsing available)
-- Can be verbose without constraints
-- Higher cost for premium models
+* **Strengths**:
+    * **Reasoning Control**: First to allow manual toggling of "Thinking Effort."
+    * **Multimodal Canvas**: Seamlessly switch between code, text, and DALL-E 4 in a shared workspace.
+    * **Voice-to-Agent**: Ultra-low latency "Advanced Voice" for hands-free prompting.
+* **Optimal Use Cases**: Complex engineering, agentic automation, and high-logic strategy.
+* **2026 Prompt Tip**: Use `# REASONING: EXTENDED` at the start of prompts to trigger deep-chain logic.
 
 ---
 
-### Claude (Anthropic Sonnet 3.5 / Opus)
+### Claude (Anthropic 4.6 Opus / Sonnet)
+**Best Models**: `claude-4.6-opus` (Nuance), `claude-4.6-sonnet` (Daily Workhorse)
 
-**Best Models**: Claude 3.5 Sonnet (balanced), Opus (maximum quality)
-
-**Strengths**:
-- Largest context window (200K tokens)
-- Exceptional long-form writing
-- Nuanced, thoughtful responses
-- Strong ethical reasoning
-- Excellent document analysis
-- XML tag handling
-
-**Optimal Use Cases**:
-- Legal document analysis
-- Long-form content creation
-- Research synthesis
-- Creative writing
-- Ethical decision-making
-- Coaching and psychology
-
-**Prompt Tips**:
-```
-- Use XML tags for structure: <context>, <task>, <output>
-- Leverage long context for full documents
-- Claude responds well to politeness
-- Artifacts feature for complex outputs
-- Excellent for nuanced instructions
-```
-
-**Limitations**:
-- No real-time web search
-- Can be overly cautious on edge cases
-- Slightly slower for very long outputs
+* **Strengths**:
+    * **Constitutional Logic**: Remains the most "human-aligned" and less prone to sycophancy.
+    * **Artifacts 2.0**: Full sandbox for running React apps and Python dashboards in-line.
+    * **Adaptive Context**: Best-in-class performance at the 1M token mark without "forgetting."
+* **Optimal Use Cases**: Legal analysis, creative writing, nuanced coaching, and long-doc synthesis.
+* **2026 Prompt Tip**: Use `<thought_process>` tags to define *how* you want Claude to weigh conflicting data.
 
 ---
 
-### Gemini (Google Pro / Ultra)
+### Gemini (Google 3.1 Pro / Ultra)
+**Best Models**: `gemini-3.1-pro` (Fast/Large Context), `gemini-3.1-flash` (High Volume)
 
-**Best Models**: Gemini 1.5 Pro (balanced), Gemini Ultra (maximum)
-
-**Strengths**:
-- Massive context window (1M+ tokens)
-- Native Google Workspace integration
-- Excellent multimodal capabilities
-- Strong at data analysis
-- Real-time information access
-- Video and audio understanding
-
-**Optimal Use Cases**:
-- Multimodal analysis (images, video)
-- Data visualization
-- Research with current information
-- Google Workspace workflows
-- Large document processing
-
-**Prompt Tips**:
-```
-- Leverage multimodal: include images directly
-- Use for tasks requiring current data
-- Excellent at structured data extraction
-- Works well with Google services
-- Strong at code generation
-```
-
-**Limitations**:
-- Can be less nuanced in creative writing
-- Occasional inconsistency in complex reasoning
-- Enterprise features still maturing
+* **Strengths**:
+    * **The 2M Window**: Can ingest entire video libraries or massive codebases in one go.
+    * **Google Live Grounding**: Direct, real-time access to Search, Maps, and Workspace data.
+    * **Native Video Intelligence**: Best at "watching" 2-hour videos and finding specific moments.
+* **Optimal Use Cases**: Multimodal research, massive data extraction, and Google ecosystem integration.
+* **2026 Prompt Tip**: Provide a YouTube URL or a 1GB Drive file and ask: `"Cross-reference the 14-minute mark of this video with Page 90 of the PDF."`
 
 ---
 
-### Perplexity
+## 🎯 Platform Selection by Category (2026 Update)
 
-**Best Models**: Default (fast), Pro (thorough)
-
-**Strengths**:
-- Real-time web search integration
-- Automatic source citations
-- Fact-focused responses
-- Current information access
-- Research-optimized
-
-**Optimal Use Cases**:
-- Market research
-- Competitive analysis
-- Fact-checking
-- Current events research
-- Academic research
-- News synthesis
-
-**Prompt Tips**:
-```
-- Ask for sources explicitly
-- Use for current/recent information
-- Combine with follow-up questions
-- Leverage focus modes (Academic, Writing, etc.)
-- Great for quick fact verification
-```
-
-**Limitations**:
-- Less suited for creative tasks
-- Shorter context window
-- Not ideal for code generation
-- Limited customization
+| Category | Primary Engine | Why? |
+| :--- | :--- | :--- |
+| **Software Dev** | **Claude 4.6 / ChatGPT** | Claude for architecture; ChatGPT for debugging logic. |
+| **Research** | **Perplexity Pulse** | Best citation engine for 2026 live-web events. |
+| **Enterprise Ops** | **Copilot** | Deep integration with 365 Graph and Agentic commerce. |
+| **Creative Writing** | **Claude 4.6** | Retains the most "human" prose style and narrative flow. |
+| **Data Science** | **Gemini 3.1** | Massive context allows for whole-dataset analysis. |
+| **Privacy/Local** | **Llama 4.0** | Run locally via Ollama for zero-data-leakage workflows. |
 
 ---
 
-### Copilot (Microsoft)
+## 🔧 2026 Universal Prompt Syntax
 
-**Best Models**: Copilot Pro, Microsoft 365 Copilot
+To ensure your [PROMPT_LIBRARY](https://github.com/Wence412/AI-PROMPT-LIBRARY-WENCESTUDIO) remains compatible across all platforms, use this **Hybrid Structure**:
 
-**Strengths**:
-- Deep Microsoft 365 integration
-- Enterprise-grade security
-- Meeting summarization (Teams)
-- Document generation (Word, PowerPoint)
-- Data analysis (Excel)
+```markdown
+# [META-CONFIG]
+Engine: {{Engine_Name}}
+Thinking: [Low | High]
+Tools: [Web | Code | Files]
 
-**Optimal Use Cases**:
-- Meeting summaries and notes
-- Enterprise document workflows
-- Email drafting (Outlook)
-- Presentation creation
-- Excel data analysis
+# ROLE
+You are a [Expert Persona].
 
-**Prompt Tips**:
-```
-- Use within Microsoft apps for best integration
-- Reference specific documents/emails
-- Leverage for recurring business tasks
-- Good for standardized enterprise outputs
-- Use with Teams for meeting workflows
-```
+# CONTEXT / GROUNDING
+<data_sources>
+{{Insert_Link_Or_Context}}
+</data_sources>
 
-**Limitations**:
-- Best within Microsoft ecosystem
-- Less flexible for custom prompts
-- Requires Microsoft 365 subscription
-- Limited for non-business creative work
+# TASK
+[Clear, concise objective]
 
----
+# REASONING STEPS
+1. Analyze [X] for inconsistencies.
+2. Cross-reference with [Y].
+3. Propose 3 solutions.
 
-### Mistral / Llama (Open Source)
-
-**Best Models**: Mistral Large, Llama 3.1 405B, Mixtral
-
-**Strengths**:
-- Open source and customizable
-- Can run locally (privacy)
-- No API costs (self-hosted)
-- Fine-tuning capability
-- Competitive performance
-
-**Optimal Use Cases**:
-- Privacy-sensitive applications
-- Custom fine-tuning projects
-- Self-hosted deployments
-- Cost-sensitive applications
-- Experimentation and research
-
-**Prompt Tips**:
-```
-- Works with standard prompting techniques
-- May need more explicit instructions
-- Test across different model sizes
-- Local deployment for sensitive data
-- Great for custom applications
-```
-
-**Limitations**:
-- Requires technical setup for local use
-- No real-time web access (unless added)
-- Smaller context windows
-- May lag behind proprietary models
-
----
-
-## 🎯 Platform Selection by Category
-
-| Category | Primary | Secondary | Avoid |
-|----------|---------|-----------|-------|
-| **Analyze Text** | Claude, ChatGPT | Gemini | - |
-| **Coaching** | Claude | ChatGPT | Perplexity |
-| **Content Creation** | ChatGPT, Claude | Gemini | - |
-| **Creative Arts** | Claude | ChatGPT | Perplexity |
-| **Cybersecurity** | ChatGPT | Perplexity | - |
-| **Entrepreneurs** | ChatGPT | Claude, Perplexity | - |
-| **Gaming** | ChatGPT, Claude | Gemini | Copilot |
-| **Job Search** | ChatGPT, Claude | Copilot | - |
-| **Lawyers** | Claude | Perplexity | - |
-| **Meetings** | Copilot | ChatGPT | - |
-| **Product Managers** | ChatGPT | Claude | - |
-| **Prompt Management** | ChatGPT, Claude | - | - |
-| **Psychology** | Claude | ChatGPT | Perplexity |
-| **Real Estate** | ChatGPT | Gemini, Perplexity | - |
-| **Software Engineers** | ChatGPT | Claude | Copilot |
-| **Students & School** | ChatGPT, Claude | Gemini | - |
-| **Visualizations** | Gemini | ChatGPT | - |
-
----
-
-## 🔧 Platform-Specific Prompt Syntax
-
-### ChatGPT System Prompt
-```
-You are a [role]. Your task is to [task].
-
-Follow these guidelines:
-1. [Guideline 1]
-2. [Guideline 2]
-
-Output format: [format specification]
-```
-
-### Claude XML Structure
-```xml
-<context>
-[Background information]
-</context>
-
-<task>
-[What you want Claude to do]
-</task>
-
-<constraints>
-[Rules and limitations]
-</constraints>
-
-<output_format>
-[How to structure the response]
-</output_format>
-```
-
-### Gemini Multimodal
-```
-[Attach image/video]
-
-Analyze this [media type] and:
-1. [Analysis task 1]
-2. [Analysis task 2]
-
-Provide output as [format].
+# OUTPUT
+Format: [Markdown Table / Code Block / JSON]
 ```
 
 ---
 
-## 📈 Cost Comparison (Approximate)
-
-| Platform | Free Tier | Pro/Plus | Enterprise |
-|----------|-----------|----------|------------|
-| ChatGPT | ✅ (GPT-3.5) | $20/mo | Custom |
-| Claude | ✅ (Limited) | $20/mo | Custom |
-| Gemini | ✅ (Pro) | $20/mo | Via Google Cloud |
-| Perplexity | ✅ (5/day) | $20/mo | Custom |
-| Copilot | ✅ (Basic) | $20/mo | $30/user/mo (M365) |
-| Mistral | ✅ (API) | Pay per token | Self-host |
+**Last Updated**: March 2026
 
 ---
-
-**Last Updated**: December 2025
