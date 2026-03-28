@@ -1,101 +1,184 @@
-# 📄 PROMPT\_TEMPLATE.md (Reasoning-Aware)
+# 📄 PROMPT_TEMPLATE.md (2026 Reasoning-Aware)
 
-````markdown
+> **This is the canonical template for all prompts in AI-PROMPT-LIBRARY-WENCESTUDIO.**
+> Every upgraded prompt folder contains engine-specific variants derived from this architecture.
 
-# [Prompt Name]
+---
 
 ## 📋 Metadata
 - **Category**: [Category Name]
 - **Difficulty**: ⭐ / ⭐⭐ / ⭐⭐⭐ (Basic / Intermediate / Agentic)
-- **Last Updated**: 2026-02-26
-- **Version**: 2.0 (Reasoning-Optimized)
+- **Last Updated**: 2026-03-27
+- **Version**: 3.0 (Multi-Engine Reasoning-Aware)
 
 ---
 
 ## ⚙️ Platform Compatibility
 
-| Platform | Rating | Notes |
-|----------|--------|-------|
-| **ChatGPT (GPT-5.4)** | ✅ / ⚡ / ⚠️ | Set 'Thinking Effort' to [Standard/Extended] |
-| **Claude (4.6 Opus)** | ✅ / ⚡ / ⚠️ | Best for XML-tagged complex logic |
-| **Gemini (3.1 Pro)** | ✅ / ⚡ / ⚠️  | Use for 1M+ token context or live grounding |
-| **Perplexity Pulse** | ✅ / ⚡ / ⚠️  | Use for real-time citations & search |
+| Platform | Rating | Reasoning Features | Best For |
+|----------|--------|-------------------|----------|
+| **ChatGPT (GPT-5.2)** | ✅ / ⚡ / ⚠️ | `[THINKING CONFIG]` with effort levels (Low/Medium/High), self-critique loops, `[TOOL AUGMENTATION]` for search/code/Drive | Complex analysis, tool-augmented workflows, code generation |
+| **Claude (Sonnet 4.6)** | ✅ / ⚡ / ⚠️ | `<thinking_config>` with extended mode, XML structural isolation (`<instructions>`, `<context>`, `<task>`), adversarial self-review | Nuanced reasoning, structured output, sensitive topics |
+| **Gemini (3.1 Pro)** | ✅ / ⚡ / ⚠️ | `[GROUNDING CONFIG]` with Google Search/Scholar, `[REASONING CHAIN]` with explicit steps, 2M token context window | Large document analysis, research, multi-file processing |
+| **Perplexity** | ✅ / ⚡ / ⚠️ | Real-time citations, live web search, source attribution | Fact-checking, current events, competitive research |
 
 ---
 
-## 🧠 Cognitive Framework (The Prompt)
+## 🧠 Engine-Specific Templates
+
+### Template A: Claude Sonnet 4.6 (XML Architecture)
 
 ```markdown
-# [THINKING_CONFIG]
-- Effort: [Low | High]
-- Strategy: [Chain-of-Thought | First-Principles | Tree-of-Thought]
-- Tool_Access: [Enabled | Disabled]
+<instructions>
+You are a [Expert Persona]. [Core directive]. Activate Extended Thinking.
+</instructions>
 
-<role>
-Act as a [Expert Persona]. Your objective is [Objective].
-</role>
+<thinking_config mode="extended">
+  <depth>[standard | thorough]</depth>
+  <reasoning_style>[first-principles | adversarial self-review | chain-of-thought]</reasoning_style>
+  <chain_of_thought>mandatory</chain_of_thought>
+</thinking_config>
 
 <context>
-Background: {{context_variable}}
-Constraints: [Constraint 1, Constraint 2]
-Primary Data: {{data_input}}
+{{CONTEXT_OR_PASTE_NONE}}
+[Variable 1]: {{VAR_1}} | [Variable 2]: {{VAR_2}} | [Variable 3]: {{VAR_3}}
 </context>
 
-<logic_chain>
-Before providing the final output, perform the following internal reasoning steps:
-1. Analyze {{data_input}} for [X].
-2. Identify potential [Risks/Contradictions].
-3. Formulate a strategy based on [Industry Standard].
-4. Self-Correct: Review your initial thought for bias or inefficiency.
-</logic_chain>
+<task>
+[Detailed task description with step-by-step deliverables.]
+  <constraints>
+    - [Constraint 1]
+    - [Constraint 2]
+    - Avoid hallucinations; state "Data Unavailable" if unknown.
+  </constraints>
+</task>
 
 <output_format>
-- Structure: [Markdown Table / JSON / Executive Summary]
-- Tone: [Professional / Creative / Technical]
-- Mandatory Elements: [Element 1, Element 2]
+  <thinking>[Internal reasoning steps before answering]</thinking>
+  <response>[Output structure: sections, tables, format]</response>
+  <confidence>0–100</confidence>
 </output_format>
+```
 
-<instruction_override>
-If [Condition], then [Alternative Action]. Do not hallucinate data; if unknown, state "Data Unavailable."
-</instruction_override>
-````
+---
 
------
+### Template B: Gemini 3.1 Pro (Grounding Architecture)
+
+```markdown
+[GEMINI 3.1 PRO — GROUNDING CONFIG]
+Context Window: {{STANDARD | MAXIMUM (2M tokens)}}
+Grounding Source: {{Google Search | Google Scholar | None}}
+Thinking Mode: Extended Reasoning — ON
+
+[ROLE]
+[Expert Persona]. [Core directive]. Activate Extended Reasoning.
+
+[CONTEXT]
+[Variable 1]: {{VAR_1}} | [Variable 2]: {{VAR_2}} | [Variable 3]: {{VAR_3}}
+Additional: {{CONTEXT_OR_NONE}}
+
+[TASK]
+[Detailed task description with deliverables.]
+
+[REASONING CHAIN]
+Step 1: [Analysis step]
+Step 2: [Evaluation step]
+Step 3: [Synthesis step]
+Step 4: [Self-critique step]
+
+[OUTPUT STRUCTURE]
+### Section 1 | ### Section 2 | ### Section 3 | ### Confidence
+```
+
+---
+
+### Template C: GPT-5.2 / GPT-OSS 120B (Thinking-Config Architecture)
+
+```markdown
+[THINKING CONFIG]
+Thinking Effort: {{LOW | MEDIUM | HIGH}}
+Self-Critique: {{Enabled | Disabled}}
+
+[AGENT MODE: {{STANDALONE | ORCHESTRATOR | WORKER}}]
+
+[CONTEXT]
+[Variable 1]: {{VAR_1}} | [Variable 2]: {{VAR_2}} | [Variable 3]: {{VAR_3}}
+Additional: {{CONTEXT_OR_NONE}}
+
+[TASK]
+[Expert Persona]. [Detailed task description with deliverables.]
+
+[TOOL AUGMENTATION]
+Live Search: {{YES / NO}}
+Code Interpreter: {{YES / NO}}
+Google Drive: {{YES / NO}}
+Image Generation: {{YES / NO}}
+
+[OUTPUT FORMAT]
+**Section 1** | **Section 2** | **Section 3** | **Confidence & Caveats**
+```
+
+---
 
 ## 🛠️ Variables & Inputs
 
 | Variable | Type | Description | Example |
-| :--- | :--- | :--- | :--- |
-| `{{context_variable}}` | String | Industry or specific background | "SaaS Fintech" |
-| `{{data_input}}` | Text/File | The raw data for the AI to process | "Q4 Revenue Report" |
+|----------|------|-------------|---------|
+| `{{CONTEXT_OR_PASTE_NONE}}` | String | Background context or "none" | "SaaS Fintech startup, Series B" |
+| `{{VAR_1}}` ... `{{VAR_N}}` | String/Text | Domain-specific inputs | "Q4 Revenue Report" |
 
------
+> **Naming Convention**: `{{UPPER_SNAKE_CASE}}` for all variables across all engines.
 
-## 🧪 Reasoning Audit (Techniques Used)
+---
 
-  - [x] **Internal Monologue:** Forced reasoning via `<logic_chain>` tags.
-  - [x] **XML Semantic Isolation:** Prevents instruction drift in 1M+ token windows.
-  - [x] **Agentic Hooks:** Includes "Instruction Overrides" for autonomous decision-making.
-  - [ ] **Few-Shot Learning:** (Check if examples are included in the prompt above).
-  - [ ] **Multimodal Grounding:** (Check if image/video inputs are required).
+## 🧪 Reasoning Audit Checklist
 
------
+Use this checklist when creating or reviewing a prompt:
+
+| Technique | Claude 4.6 | Gemini 3.1 Pro | GPT-5.2 | Status |
+|-----------|-----------|---------------|---------|--------|
+| **Extended Thinking** | `<thinking_config mode="extended">` | `Thinking Mode: Extended Reasoning — ON` | `Thinking Effort: HIGH` | [ ] |
+| **Structural Isolation** | XML tags (`<task>`, `<context>`) | Section headers (`[TASK]`, `[CONTEXT]`) | Section headers (`[TASK]`, `[CONTEXT]`) | [ ] |
+| **Self-Critique** | `adversarial self-review` in reasoning_style | Step N in `[REASONING CHAIN]` | `Self-Critique: Enabled` | [ ] |
+| **Grounding/Search** | N/A (no native search) | `Grounding Source: Google Search` | `Live Search: YES` | [ ] |
+| **Tool Access** | N/A | N/A | `[TOOL AUGMENTATION]` block | [ ] |
+| **Confidence Score** | `<confidence>0–100</confidence>` | `### Confidence` section | `**Confidence & Caveats**` | [ ] |
+| **Hallucination Guard** | `<constraints>` block | Inline in `[TASK]` | Inline in `[TASK]` | [ ] |
+
+---
+
+## 📁 Folder Structure
+
+Each upgraded prompt produces a subfolder:
+
+```
+prompt-name/
+├── v1-legacy.md          # Original prompt preserved
+├── claude-4-6.md         # Template A variant
+├── gemini-3-1-pro.md     # Template B variant
+├── gpt-oss-120b.md       # Template C variant
+└── MANIFEST.md           # Variables, engine map, tool requirements
+```
+
+---
 
 ## 💡 Pro Tips
 
-1.  **Thinking Depth:** For GPT-5, always explicitly state if you want "Extended Thinking" to avoid wasting tokens on simple tasks.
-2.  **Claude Artifacts:** If this prompt generates code or UI, instruct Claude to "Render in a Preview Artifact."
-3.  **Gemini Grounding:** For Gemini, always include a URL or file reference to utilize its massive 2026 context window.
+1. **Thinking Effort (GPT-5.2)**: Explicitly set `HIGH` only for complex multi-step tasks. Use `MEDIUM` for standard work to save tokens.
+2. **Extended Thinking (Claude 4.6)**: Set `<depth>thorough</depth>` for first-principles analysis; use `standard` for routine tasks.
+3. **Context Window (Gemini 3.1 Pro)**: Declare `MAXIMUM (2M tokens)` only when processing large codebases or document sets. Default to `STANDARD`.
+4. **Grounding (Gemini)**: Always include `Grounding Source: Google Search` for prompts that need current data. Use `Google Scholar` for academic prompts.
+5. **Tool Augmentation (GPT-5.2)**: Enable `Code Interpreter: YES` for any prompt that involves data analysis, calculations, or code generation.
+6. **Cross-Engine Parity**: When creating a new prompt, write the Claude XML version first (most structured), then adapt to Gemini and GPT formats.
+7. **Hallucination Guards**: Every prompt must include a constraint like "Avoid hallucinations; state 'Data Unavailable' if unknown."
 
------
+---
 
-## 🔗 Related Frameworks
+## 🔗 Related
 
-  - [Related Prompt 1](https://www.google.com/search?q=./related-prompt-1.md)
-  - [Master Catalog](https://www.google.com/search?q=../CATALOG.md)
-
-<!-- end list -->
-
-```
-**Would you like me to take one of your existing prompts from the library and "migrate" it into this new template to show you the difference?**
-```
+- [CATALOG.md](./CATALOG.md) — Full prompt index
+- [Prompt Optimizer](./prompt-optimizer.md) — Improve existing prompts
+- [Prompt Evaluator](./prompt-evaluator.md) — Score prompt quality
+- [Prompt Debugger](./prompt-debugger.md) — Diagnose prompt failures
+- [Prompt Versioner](./prompt-versioner.md) — Track prompt changes
+- [UPGRADE_LOG.md](./UPGRADE_LOG.md) — Modernization history

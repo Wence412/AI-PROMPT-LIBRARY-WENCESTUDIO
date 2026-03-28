@@ -12,9 +12,9 @@
 
 | Platform | Rating | Notes |
 |----------|--------|-------|
-| ChatGPT (GPT-4o) | ✅ Optimal | Strong optimization suggestions |
-| Claude (Sonnet) | ✅ Optimal | Excellent analysis |
-| Gemini Pro | ⚡ Good | Good feedback |
+| ChatGPT (GPT-5.2) | ✅ Optimal | Strong optimization suggestions |
+| Claude (Sonnet 4.6) | ✅ Optimal | Excellent analysis |
+| Gemini 3.1 Pro | ⚡ Good | Good feedback |
 | Perplexity | ⚠️ Limited | Not suited for this |
 | Copilot | ⚡ Good | Basic optimization |
 
