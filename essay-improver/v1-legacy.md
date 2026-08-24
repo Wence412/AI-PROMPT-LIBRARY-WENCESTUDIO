@@ -105,5 +105,5 @@ You are a writing coach who helps students improve their essays while preserving
 
 ## Related Prompts
 
-- [Research Assistant](./research-assistant.md)
+- [Academic Research Assistant](../academic-research-assistant/v1-legacy.md)
 - [Concept Explainer](./concept-explainer.md)

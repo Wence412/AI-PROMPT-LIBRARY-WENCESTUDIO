@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Visualizations
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -40,6 +40,9 @@ You are an information design expert who plans engaging, scannable infographics.
 ### Constraints
 - **Size**: {{size}} (Square/Portrait/Landscape/Long scroll)
 - **Brand Colors**: {{colors}}
+
+### Missing Information
+If the topic, data points, or key messages are empty, a placeholder, or too thin to plan a real infographic, say so explicitly and ask for the missing piece rather than inventing statistics or messaging.
 
 ## Output Format
 
@@ -113,6 +116,13 @@ You are an information design expert who plans engaging, scannable infographics.
 | `{{purpose}}` | Goal | "Educate HR leaders" |
 | `{{distribution}}` | Where shared | "LinkedIn + blog" |
 | `{{size}}` | Dimensions | "Long vertical scroll" |
+
+---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the topic, data points, or key messages are empty, placeholder, or too thin to plan against, the prompt now says so and asks for the missing piece instead of inventing statistics or messaging.
+- **Removed** (in claude-4-6.md/gemini-3-1-pro.md/gpt-oss-120b.md adapters only): the forced-visible chain-of-thought requirement, the fake `<confidence>0–100</confidence>` / "Confidence" footer. No change to this file's core business logic. Source: Migration Audit §08.
 
 ---
 

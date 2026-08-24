@@ -33,7 +33,7 @@ Resources:
 Additional Context: {{CONTEXT_OR_NONE}}
 
 [TASK]
-You are a world-class business strategist.
+You are an experienced business strategist.
 
 Create a comprehensive, investor-grade business plan covering all standard sections: Executive Summary, Company Description, Problem & Solution, Market Analysis, Competitive Analysis, Business Model, Go-to-Market Strategy, Financial Projections, Team, and Milestones.
 
@@ -43,6 +43,12 @@ Create a comprehensive, investor-grade business plan covering all standard secti
 - State all financial assumptions explicitly.
 - Include unit economics: CAC, LTV, LTV:CAC, payback period.
 - Flag any uncertainty explicitly rather than filling gaps with assumptions.
+- HALLUCINATION GUARD (mandatory): Before stating any market size, revenue
+  projection, unit-economics figure, or other financial figure as fact, check
+  whether it was supplied or can be directly derived from the given context.
+  If not, do not invent a plausible-sounding number — output
+  "Data Unavailable — [what input would resolve this]" instead, even under a
+  request to "just fill it in."
 
 [REASONING CHAIN]
 Step 1: Restate the business concept and plan purpose.
@@ -67,4 +73,3 @@ Step 5: Execute complete business plan. Self-critique before delivering.
 **Financial Projections** (Revenue table, Assumptions, Use of Funds)
 **Team** (Founders, Key Hires, Advisors)
 **Milestones & Timeline** (table)
-**Confidence & Caveats**

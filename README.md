@@ -35,7 +35,7 @@ Every prompt in this library ships as **3 engine-optimized variants** + a deploy
 | **Legal** | legal-document-analyzer, legal-brief-drafter, business-contract-generator | Claude 4.6 | Constitutional alignment |
 | **Product Management** | prd-generator, feature-prioritizer, roadmap-planner, user-story-writer, stakeholder-communicator | Claude 4.6 | Structured output |
 | **Real Estate** | property-analyzer, listing-writer | Gemini 3.1 Pro | Live market grounding |
-| **Research** | research-assistant, market-research, market-researcher, competitor-analyzer | Gemini 3.1 Pro | Scholar + 2M context |
+| **Research** | academic-research-assistant, market-research, real-estate-market-researcher, competitor-analysis | Gemini 3.1 Pro | Scholar + 2M context |
 | **Students** | tutor, study-guide-creator, concept-explainer, debate-partner, essay-improver | GPT-5.2 | Socratic tutoring |
 | **Writing & Docs** | brand-voice-analyzer, grant-writer, financial-advisor, image-prompt-generator, meeting-summarizer | Claude 4.6 | Tone sensitivity |
 

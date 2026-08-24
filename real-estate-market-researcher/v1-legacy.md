@@ -1,4 +1,6 @@
-# Market Researcher
+# Real Estate Market Researcher
+
+*(Renamed 2026-08-24 from `market-researcher` to disambiguate from the unrelated `market-research` startup-validation prompt — see [migration audit](https://claude.ai/code/artifact/ae8b9b2e-9e0f-4ddc-ab57-06f62ded444c) §07. Content and variables are unchanged; only the folder name and title changed.)*
 
 ## Metadata
 - **Category**: Real Estate

@@ -149,5 +149,5 @@ You are a real estate investment analyst who evaluates properties for purchase p
 
 ## Related Prompts
 
-- [Market Researcher](./market-researcher.md)
+- [Real Estate Market Researcher](../real-estate-market-researcher/v1-legacy.md)
 - [Listing Writer](./listing-writer.md)
