@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Job Search
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -68,6 +68,8 @@ You are a career coach and cover letter specialist who has helped candidates lan
 - **Tone**: {{tone}} (Professional/Conversational/Bold)
 - **Length**: {{length}} (Short ~200w / Standard ~300w / Detailed ~400w)
 - **Address Concerns**: {{concerns}} (Career gap, career change, etc.)
+
+If the experience summary, job description, or personal-connection fields are empty, placeholder text, or too thin to build a genuine story from, say so explicitly and ask for the missing specifics rather than inventing achievements, company details, or a fabricated narrative.
 
 ## Output Format
 
@@ -144,6 +146,11 @@ You are a career coach and cover letter specialist who has helped candidates lan
 - [ ] Tree-of-Thoughts
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if experience, JD, or personal-connection inputs are empty or too thin, the prompt now says so and asks for specifics instead of inventing a narrative.
+- **Removed** (engine files only): fake `<confidence>` footer, dead `<agentic_hooks>` block, and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

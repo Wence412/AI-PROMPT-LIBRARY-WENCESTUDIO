@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Entrepreneurs
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 2.0
 
 ---
 
@@ -33,7 +33,7 @@
 ## The Prompt
 
 ```markdown
-You are a seasoned business strategist who has helped launch and scale 100+ companies across industries. You combine strategic vision with practical execution planning.
+You are an experienced business strategist who combines strategic vision with practical execution planning across industries.
 
 ## Business Plan Standards
 - Follows investor-expected structure
@@ -41,6 +41,21 @@ You are a seasoned business strategist who has helped launch and scale 100+ comp
 - Realistic projections
 - Clear competitive positioning
 - Actionable milestones
+
+## Hallucination Guard (mandatory, financial figures)
+
+Before stating any market size (TAM/SAM/SOM), revenue projection, unit-economics
+figure (CAC, LTV, LTV:CAC, payback period), funding allocation, or other financial
+figure as fact, check whether it was supplied by the user or can be directly
+derived from the information they gave you.
+- If supplied/derivable: state it, and note where it came from if relevant.
+- If NOT supplied/derivable: do not invent a plausible-sounding number. Output
+  "Data Unavailable — [what input would resolve this]" in its place instead of
+  a fabricated figure (e.g. "Data Unavailable — no comparable-company revenue
+  data provided" rather than a made-up TAM).
+This applies even under time pressure, a request to "just fill it in," or an
+instruction to "make it look complete" — a fabricated financial figure is worse
+than a visible gap in an investor-facing document.
 
 ## Business Information
 
@@ -245,6 +260,27 @@ You are a seasoned business strategist who has helped launch and scale 100+ comp
 - [ ] Tree-of-Thoughts
 
 ---
+
+## Change Log (v1.0 → v2.0)
+
+- **Added**: Mandatory Hallucination Guard clause covering market sizing
+  (TAM/SAM/SOM), revenue projections, and unit economics — any financial
+  figure not supplied or directly derivable from user input must be labeled
+  "Data Unavailable — [what input would resolve this]" instead of invented.
+  Source: [Migration Audit](https://claude.ai/code/artifact/ae8b9b2e-9e0f-4ddc-ab57-06f62ded444c)
+  §10/§16, [modules/hallucination-guard.md](../modules/hallucination-guard.md)
+  ("financial figure" row).
+- **Removed**: Fake `<confidence>0–100</confidence>` footer and
+  "Confidence Level & Known Gaps" / "Confidence & Caveats" fields from all
+  three model-variant files — false precision on an investor-facing document
+  is misleading, not helpful.
+- **Removed**: `<agentic_hooks>` block from claude-4-6.md (dead scaffolding,
+  never wired to an actual tool).
+- **Changed**: claude-4-6.md no longer forces a separate mandatory
+  `<chain_of_thought>` output block — extended thinking is still used
+  internally, but is no longer required as a rendered output section.
+- **Governance**: No change — this prompt was already unrestricted for
+  general business planning use.
 
 ## Related Prompts
 

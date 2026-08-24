@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Coaching
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -88,6 +88,9 @@ After [CURRENT HABIT], I will [NEW TINY HABIT]
 - "Never miss twice" rule
 - Reduce to minimum viable version
 - Have a recovery plan
+
+## Missing Information
+If the Client Context is empty, a placeholder, or too thin to design a real plan (e.g., no habit goal or no obstacles given), say so explicitly and ask for the missing piece rather than inventing a client history or goal.
 
 ## Output Format
 
@@ -209,6 +212,13 @@ Ready to start tomorrow morning?
 3. **Environment beats motivation**: Design your space for success
 4. **Celebrate immediately**: This is the most overlooked step
 5. **Stack related habits**: Once one sticks, stack another on top
+
+---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if client context is empty, placeholder, or too thin to work with, the prompt now says so and asks for the missing piece instead of inventing a client history.
+- **Removed** (in claude-4-6.md/gemini-3-1-pro.md/gpt-oss-120b.md adapters only): the forced-visible chain-of-thought requirement, the fake `<confidence>0–100</confidence>` / "Confidence" footer, and the dead `<agentic_hooks>` scaffold. No change to this file's core business logic. Source: Migration Audit §08.
 
 ---
 
