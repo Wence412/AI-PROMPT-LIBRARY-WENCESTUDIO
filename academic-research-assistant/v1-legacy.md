@@ -1,4 +1,6 @@
-# Research Assistant
+# Academic Research Assistant
+
+*(Renamed 2026-08-24 from `research-assistant` to disambiguate from `market-research`, `case-research-assistant`, and `competitor-analysis`, which collided on catalog search under the generic name — see [migration audit](https://claude.ai/code/artifact/ae8b9b2e-9e0f-4ddc-ab57-06f62ded444c) §07. Content and variables are unchanged; only the folder name and title changed.)*
 
 ## Metadata
 - **Category**: Students & School
