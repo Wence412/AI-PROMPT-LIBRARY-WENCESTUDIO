@@ -186,6 +186,11 @@ Before writing, create a strategic outline:
 
 ---
 
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the topic, target keyword, or audience are empty or too thin, the prompt now states "Insufficient input for [X]" for the affected element instead of inventing generic filler.
+- **Removed** (engine files only): fake `<confidence>`/`Confidence & Caveats` footer, dead `<agentic_hooks>` block, and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
+
 ## Related Prompts
 
 - [SEO Content Optimizer](./seo-content-optimizer.md)

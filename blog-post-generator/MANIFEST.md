@@ -21,3 +21,17 @@ Deployment checklist:
   □ Thinking Mode set to Extended in model panel
   □ Grounding source linked (Gemini) or tool permissions confirmed (Claude/GPT-OSS)
   □ Output reviewed against CATALOG.md quality standard
+
+## Change Log
+
+### v1.1 — 2026-08-24
+- **[FIX]** Stripped batch-generated boilerplate from all engine files: fake
+  `<confidence>0–100</confidence>`/`Confidence & Caveats` footer, dead
+  `<agentic_hooks>` scaffold, and the forced mandatory-visible chain-of-thought
+  requirement (now an internal reasoning instruction only). Source: Migration
+  Audit §08.
+- **[FIX]** Added a missing-data fallback across all 4 engine files and
+  v1-legacy.md: if topic, target keyword, or audience are empty, placeholder,
+  or too thin, the prompt now states "Insufficient input for [X]" instead of
+  inventing generic filler content.
+- Core prompt logic, variables, and output structure unchanged.
