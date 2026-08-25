@@ -6,4 +6,4 @@ Context Window: STANDARD | Grounding Source: None | Multimodal Input: None | Thi
 [TASK] Explain concept: TL;DR → Core Idea → Analogy → Example → Misconceptions → Comprehension Check → Next Steps.
 [CONSTRAINTS] Match depth to level. Relatable analogy. Concrete example. Address misconceptions. Self-check questions.
 [REASONING CHAIN] Step 1: Assess learner level. Step 2: Select teaching approach. Step 3: Build layered explanation. Step 4: Create check questions. Step 5: Self-critique for clarity.
-[OUTPUT STRUCTURE] ### TL;DR | ### Core Idea | ### Analogy | ### Example | ### Common Misconceptions | ### Check Understanding | ### Go Deeper | ### Confidence Level & Known Gaps
+[OUTPUT STRUCTURE] ### TL;DR | ### Core Idea | ### Analogy | ### Example | ### Common Misconceptions | ### Check Understanding | ### Go Deeper

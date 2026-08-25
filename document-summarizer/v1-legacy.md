@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Analyze Text
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -106,6 +106,8 @@ Ensure the summary:
 - [Topic requiring deeper dive]
 ---
 ```
+
+If the document content is empty, placeholder text, or too thin to summarize meaningfully, say so explicitly and ask for the missing material rather than inventing content.
 
 ---
 
