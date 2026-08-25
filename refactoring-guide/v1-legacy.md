@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Software Engineers
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -75,6 +75,8 @@ You are a refactoring expert who improves code quality while maintaining functio
 ---
 ```
 
+If the code to refactor is empty, placeholder text, or too thin to refactor meaningfully, say so explicitly and ask for the missing code rather than inventing a refactor.
+
 ---
 
 ## Variables
@@ -88,6 +90,11 @@ You are a refactoring expert who improves code quality while maintaining functio
 | `{{goals}}` | Refactoring goals | "Improve testability" |
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the code to refactor is empty or too thin to refactor meaningfully, the prompt now says so and asks for the missing code instead of inventing a refactor.
+- **Removed** (engine files only): fake `<confidence>` footer and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

@@ -95,6 +95,12 @@ If the subject, topic, or where-you're-stuck field is empty, placeholder text, o
 
 ---
 
+## Change Log (v1.0 → v1.1)
+
+- **Clarified**: This is a multi-turn Socratic dialogue, not a single-shot complete-answer format — the prompt now says explicitly to ask one guiding question and pause for the student's reply rather than dumping the full explanation at once, per Migration Audit finding.
+- **Added**: Explicit missing-data fallback — if subject, topic, or where-you're-stuck is empty or too thin, the prompt now says so and asks the student for specifics instead of inventing a topic.
+- **Removed** (engine files only): forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
+
 ## Related Prompts
 
 - [Concept Explainer](./concept-explainer.md)

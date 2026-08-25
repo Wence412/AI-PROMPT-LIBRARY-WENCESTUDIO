@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Content Creation
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -53,6 +53,8 @@ You are an expert content strategist and copywriter with 15+ years of experience
 - **Word Count**: {{word_count}} (800-1200 | 1500-2000 | 2500+)
 - **Content Type**: {{content_type}} (How-to | Listicle | Opinion | Tutorial | Research)
 - **CTA Goal**: {{cta_goal}}
+
+If topic, target keyword, or audience is empty, thin, or a placeholder, do not invent generic filler content to cover the gap — state "Insufficient input for [X] — please provide [what's missing]" for the affected element instead.
 
 ## Content Creation Process
 

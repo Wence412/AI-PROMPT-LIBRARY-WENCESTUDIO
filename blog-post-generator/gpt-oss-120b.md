@@ -52,4 +52,3 @@ Step 5: Write the full article. Self-critique before delivering.
 **CTA Section** (aligned with goal)
 **Internal Linking Suggestions**
 **Image Suggestions** (location + alt text)
-**Confidence & Caveats**
