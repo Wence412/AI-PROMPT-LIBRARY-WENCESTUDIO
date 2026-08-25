@@ -1,7 +1,7 @@
 # PROMPT UPDATE MANIFEST
 Library Entry: incident-response.md | Category: Cybersecurity | Updated: 2026-08-24
 Upgraded By: WenceStudio Prompt Modernization Agent (UPOS-GF v3.0)
-Version: 2.0.0 (MAJOR — safety-critical output-path change)
+Version: 2.0.1 (PATCH — mechanical boilerplate cleanup)
 
 Governance Gate: 🔴 HUMAN REVIEW REQUIRED
   This prompt produces regulatory breach-notification guidance and forensic
@@ -20,7 +20,15 @@ Variables: {{INCIDENT_TYPE}}, {{INCIDENT_SUMMARY}}, {{DETECTION_TIME}}, {{CURREN
 
 ## Change Log
 
-### v2.0.0 — 2026-08-24 (this update)
+### v2.0.1 — 2026-08-25 (this update)
+- **[FIX]** Removed the remaining `<chain_of_thought>mandatory</chain_of_thought>`
+  boilerplate from claude-4-6.md and converted the `<thinking>` output node
+  into internal-reasoning-only guidance, per audit §08's library-wide
+  mechanical fix (this file was fixed for its P0 issue before that pass was
+  scoped to the rest of the library). No change to the Jurisdiction &
+  Data-Availability Hedge or any other behavior.
+
+### v2.0.0 — 2026-08-24
 - **[CRITICAL FIX]** Added a mandatory Jurisdiction & Data-Availability
   Hedge in every variant (v1-legacy, claude-4-6, gemini-3-1-pro,
   gpt-oss-120b). Regulatory deadlines/requirements are now stated only when
