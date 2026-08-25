@@ -21,6 +21,7 @@ Perform comprehensive code review: security → correctness → performance → 
 - Categorize by severity: 🔴 Critical, 🟡 Improvement, 🟢 Style.
 - Corrected code for every issue. Include positive feedback.
 - Ground findings in the actual code provided.
+- If the code block is empty, placeholder, or too thin to review meaningfully, say so explicitly and ask for the missing code rather than inventing a review.
 
 [REASONING CHAIN]
 Step 1: Security scan — identify injection, auth, data exposure risks.
@@ -36,4 +37,3 @@ Step 5: Synthesize findings. Self-critique for missed issues before finalizing.
 ### 🟢 Style Suggestions
 ### ✅ What's Done Well
 ### Refactored Version
-### Confidence Level & Known Gaps

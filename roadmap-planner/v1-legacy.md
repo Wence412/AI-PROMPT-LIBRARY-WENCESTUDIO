@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Product Managers
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -195,3 +195,11 @@ You are a VP of Product who builds roadmaps that balance customer needs, busines
 
 - [Feature Prioritizer](./feature-prioritizer.md)
 - [Stakeholder Communicator](./stakeholder-communicator.md)
+
+---
+
+## Change Log
+
+**v1.1 (2026-08-24)**: Removed boilerplate adapter cruft from the engine
+files (fake confidence footer, mandatory-visible chain-of-thought). No
+change to task logic, variables, or output structure.

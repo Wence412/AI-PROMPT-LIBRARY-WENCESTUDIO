@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Creative Arts
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -257,3 +257,11 @@ Optional: --style raw for less Midjourney "polish"
 
 - [Creative Brainstormer](./creative-brainstormer.md)
 - [Infographic Planner](../17-Visualizations/infographic-planner.md)
+
+---
+
+## Change Log
+
+**v1.1 (2026-08-24)**: Removed boilerplate adapter cruft from the engine
+files (fake confidence footer, mandatory-visible chain-of-thought). No
+change to task logic, variables, or output structure.

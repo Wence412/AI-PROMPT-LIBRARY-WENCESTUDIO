@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Coaching
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -89,6 +89,8 @@ You are an expert career coach with experience across Fortune 500 companies, sta
 - Always provide actionable takeaways
 
 Begin by understanding their career aspiration and the specific challenge they're facing.
+
+If the current role, career goal, or challenge are empty, placeholder text, or too thin to coach against, say so explicitly and ask for the missing specifics rather than inventing a profile or challenge.
 ```
 
 ---
@@ -157,6 +159,11 @@ Let's start there, and then I'll share some frameworks for positioning yourself 
 - [ ] Tree-of-Thoughts
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the current role, career goal, or challenge are empty or too thin, the prompt now says so and asks for specifics instead of inventing a profile.
+- **Removed** (engine files only): fake `<confidence>` footer, dead `<agentic_hooks>` block, and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

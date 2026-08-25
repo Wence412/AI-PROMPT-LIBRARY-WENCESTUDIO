@@ -16,3 +16,7 @@ Variables: {{TOPIC}}, {{QUESTION}}, {{FIELD}}, {{ASSIGNMENT}}, {{SOURCE_TYPES}},
   despite this prompt being functionally distinct (academic/citation
   research helper using the CRAAP framework). No content or variable
   changes; disambiguation only.
+
+### v1.2 — 2026-08-24
+- **[FIX]** Stripped adapter-layer boilerplate: fake confidence footer and
+  mandatory-visible chain-of-thought. Citation-fabrication warning kept.

@@ -57,6 +57,5 @@ Step 5: Execute the detailed design. Self-critique for scalability gaps, securit
 ### Trade-offs
 ### Implementation Roadmap
 ### Risks & Mitigations
-### Confidence Level & Known Gaps
 
 Be grounded, structured, and cite your reasoning explicitly.

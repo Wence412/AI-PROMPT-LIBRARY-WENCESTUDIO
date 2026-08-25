@@ -11,7 +11,6 @@ expected output.
 <thinking_config mode="extended">
   <depth>thorough</depth>
   <reasoning_style>first-principles + adversarial self-review</reasoning_style>
-  <chain_of_thought>mandatory</chain_of_thought>
 </thinking_config>
 
 <context>
@@ -50,13 +49,8 @@ requirements and a copy-paste-ready calendar invite text.
   </constraints>
 </task>
 
-<agentic_hooks>
-  <tool_use>none</tool_use>
-  <sub_agent_trigger>none</sub_agent_trigger>
-</agentic_hooks>
-
 <output_format>
-  <thinking>Analyze the meeting purpose and desired outcomes. Determine optimal topic sequencing, time allocation, and facilitation approach. Validate that the agenda achieves all stated outcomes within the time constraint.</thinking>
+  <thinking>Briefly reason internally: analyze the meeting purpose and desired outcomes, determine optimal topic sequencing, time allocation, and facilitation approach, and validate that the agenda achieves all stated outcomes within the time constraint. Do not output this reasoning as a separate visible block — go straight to the response.</thinking>
   <response>
 ## 📋 Meeting Agenda
 
@@ -93,5 +87,4 @@ requirements and a copy-paste-ready calendar invite text.
 ### Invite Text
 [Copy-paste-ready calendar invite]
   </response>
-  <confidence>0–100 with one-sentence rationale</confidence>
 </output_format>

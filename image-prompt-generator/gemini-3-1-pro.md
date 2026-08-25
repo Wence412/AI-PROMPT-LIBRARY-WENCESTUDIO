@@ -5,4 +5,4 @@ Context Window: STANDARD | Thinking Mode: Extended Reasoning — ON
 [TASK] Generate: Concept → Main Prompt → 2 Variations → Platform Params → Style Board → Iterations.
 [CONSTRAINTS] Platform-specific syntax. Front-load. Negative prompts if SD/Flux. Iteration suggestions.
 [REASONING CHAIN] Step 1: Decompose vision. Step 2: Select composition. Step 3: Build prompt layers. Step 4: Add parameters. Step 5: Self-critique.
-[OUTPUT STRUCTURE] ### Concept | ### Main Prompt | ### Variations | ### Parameters | ### Style Board | ### Iterations | ### Confidence
+[OUTPUT STRUCTURE] ### Concept | ### Main Prompt | ### Variations | ### Parameters | ### Style Board | ### Iterations

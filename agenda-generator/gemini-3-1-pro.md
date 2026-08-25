@@ -57,6 +57,5 @@ Step 5: Finalize the agenda. Self-critique for completeness and timing before de
 ### Pre-Meeting Preparation
 ### Out of Scope
 ### Invite Text
-### Confidence Level & Known Gaps
 
 Be grounded, structured, and cite your reasoning explicitly.

@@ -5,4 +5,4 @@
 [CONSTRAINTS] Actions with owners/deadlines. Scannable. 3 subjects. Flag uncertainty.
 [REASONING CHAIN] Steps 1-5: Prioritize → Assign → Draft → Subjects → Self-critique.
 [TOOL AUGMENTATION] Live Search: NO | Code Interpreter: NO | Google Drive: NO
-[OUTPUT FORMAT] **Full Email** | **Shorter Version** | **Action-Focused** | **Subject Alternatives** | **Confidence & Caveats**
+[OUTPUT FORMAT] **Full Email** | **Shorter Version** | **Action-Focused** | **Subject Alternatives**

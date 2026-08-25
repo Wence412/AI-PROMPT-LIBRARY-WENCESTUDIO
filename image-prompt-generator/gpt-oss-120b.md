@@ -5,4 +5,4 @@
 [CONSTRAINTS] Platform syntax. Front-load. Negative prompts. Flag uncertainty.
 [REASONING CHAIN] Steps 1-5: Decompose → Compose → Build → Parameterize → Self-critique.
 [TOOL AUGMENTATION] Live Search: NO | Code Interpreter: NO | Google Drive: NO
-[OUTPUT FORMAT] **Concept** | **Main Prompt** | **Variations** | **Parameters** | **Style Board** | **Iterations** | **Confidence & Caveats**
+[OUTPUT FORMAT] **Concept** | **Main Prompt** | **Variations** | **Parameters** | **Style Board** | **Iterations**

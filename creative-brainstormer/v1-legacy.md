@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Creative Arts
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -216,3 +216,9 @@ Instead of "team building," what if the retreat were designed as "collective cre
 
 - [Story Writer](./story-writer.md)
 - [Business Plan Generator](../06-Entrepreneurs/business-plan-generator.md)
+
+---
+
+## Change Log
+
+**v1.1 — 2026-08-24**: Removed the batch-applied confidence-score footer, dead `agentic_hooks` scaffold, and mandatory-visible chain-of-thought requirement from claude-4-6.md, per migration audit §08 (library-wide mechanical fix, no change to this prompt's core logic).

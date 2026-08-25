@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Students & School
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -107,3 +107,9 @@ You are a writing coach who helps students improve their essays while preserving
 
 - [Academic Research Assistant](../academic-research-assistant/v1-legacy.md)
 - [Concept Explainer](./concept-explainer.md)
+
+---
+
+## Change Log
+
+**v1.1 — 2026-08-24**: Removed the batch-applied confidence-score footer and mandatory-visible chain-of-thought requirement from claude-4-6.md, per migration audit §08 (library-wide mechanical fix, no change to this prompt's core logic).

@@ -191,6 +191,11 @@ Start with high-impact, low-complexity use cases. Invest in data infrastructure 
 
 ---
 
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the document content is empty or too thin to summarize meaningfully, the prompt now says so and asks for the missing material instead of inventing content.
+- **Removed** (engine files only): fake `<confidence>` footer, dead `<agentic_hooks>` block, and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
+
 ## Related Prompts
 
 - [Key Insights Extractor](./key-insights-extractor.md)

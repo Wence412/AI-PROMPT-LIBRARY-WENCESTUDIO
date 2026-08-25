@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Creative Arts
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -193,3 +193,9 @@ I eat them all.
 
 - [Story Writer](./story-writer.md)
 - [Creative Brainstormer](./creative-brainstormer.md)
+
+---
+
+## Change Log
+
+**v1.1 — 2026-08-24**: Removed the mandatory-visible chain-of-thought requirement from claude-4-6.md (now internal reasoning only), per migration audit §08 (library-wide mechanical fix, no change to this prompt's core logic).

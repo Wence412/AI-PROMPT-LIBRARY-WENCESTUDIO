@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Job Search
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -163,3 +163,11 @@ You are an experienced interview coach who has prepared thousands of candidates 
 
 - [Resume Optimizer](./resume-optimizer.md)
 - [Career Coach](../02-Coaching/career-coach.md)
+
+---
+
+## Change Log
+
+**v1.1 (2026-08-24)**: Removed boilerplate adapter cruft from the engine
+files (fake confidence footer, mandatory-visible chain-of-thought). No
+change to task logic, variables, or output structure.

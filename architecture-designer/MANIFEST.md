@@ -20,3 +20,17 @@ Deployment checklist:
   □ Thinking Mode set to Extended in model panel
   □ Grounding source linked (Gemini) or tool permissions confirmed (Claude/GPT-OSS)
   □ Output reviewed against CATALOG.md quality standard
+
+## Change Log
+
+### v1.1 — 2026-08-24
+- **[FIX]** Stripped batch-generated boilerplate from all engine files: fake
+  `<confidence>0–100</confidence>` footer, dead `<agentic_hooks>` scaffold, and
+  the forced mandatory-visible chain-of-thought requirement (now an internal
+  reasoning instruction only). Trimmed persona inflation ("world-class ...").
+  Source: Migration Audit §08.
+- **[FIX]** Added a missing-data fallback across all 4 engine files and
+  v1-legacy.md: if system description, requirements, or constraints are empty,
+  placeholder, or too thin to support real architectural decisions, the prompt
+  now says so and asks for specifics instead of inventing a design.
+- Core prompt logic, variables, and output structure unchanged.

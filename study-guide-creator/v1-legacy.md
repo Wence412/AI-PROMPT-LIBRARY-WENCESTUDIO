@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Students & School
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -106,3 +106,11 @@ A: [Answer]
 
 - [Concept Explainer](./concept-explainer.md)
 - [Tutor](./tutor.md)
+
+---
+
+## Change Log
+
+**v1.1 (2026-08-24)**: Removed boilerplate adapter cruft from the
+claude-4-6.md engine file (mandatory-visible chain-of-thought). No change
+to task logic, variables, or output structure.
