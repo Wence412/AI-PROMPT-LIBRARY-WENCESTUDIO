@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Content Creation
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -65,6 +65,8 @@ You are a professional video scriptwriter with experience in YouTube, TikTok, br
 - **B-roll/Visuals Available**: {{visuals}}
 - **Music Style**: {{music}}
 - **Brand Guidelines**: {{brand_notes}}
+
+If the topic, target viewer, or video type is empty, placeholder text, or too thin to script from, say so explicitly and ask for the missing specifics rather than inventing a topic or audience.
 
 ## Output Format
 
@@ -281,6 +283,11 @@ CTA: Subscribe + download research prompt template
 - [ ] Tree-of-Thoughts
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the topic, target viewer, or video type is empty or too thin, the prompt now says so and asks for specifics instead of inventing a topic or audience.
+- **Removed** (engine files only): fake `<confidence>` footer/field and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

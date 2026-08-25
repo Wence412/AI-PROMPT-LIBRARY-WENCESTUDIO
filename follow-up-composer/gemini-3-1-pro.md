@@ -5,4 +5,4 @@ Context Window: STANDARD | Thinking Mode: Extended Reasoning — ON
 [TASK] Draft follow-up: full email, exec version, action-focused version, subject alternatives.
 [CONSTRAINTS] Clear subject. Actions with owners/deadlines. Scannable. Professional warmth. 3 subject options.
 [REASONING CHAIN] Step 1: Prioritize content. Step 2: Assign ownership. Step 3: Draft versions. Step 4: Craft subjects. Step 5: Self-critique.
-[OUTPUT STRUCTURE] ### Full Email | ### Shorter Version | ### Action-Focused Version | ### Subject Alternatives | ### Confidence
+[OUTPUT STRUCTURE] ### Full Email | ### Shorter Version | ### Action-Focused Version | ### Subject Alternatives

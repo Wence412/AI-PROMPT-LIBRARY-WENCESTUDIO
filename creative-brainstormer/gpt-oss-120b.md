@@ -5,4 +5,4 @@
 [CONSTRAINTS] Full spectrum. Top 3 ranked. Inspiration sources. Flag uncertainty.
 [REASONING CHAIN] Steps 1-5: Reframe → Apply techniques → Categorize → Mashups → Self-critique.
 [TOOL AUGMENTATION] Live Search: NO | Code Interpreter: NO | Google Drive: NO
-[OUTPUT FORMAT] **Quick Insight** | **Safe Zone** | **Bold Territory** | **Wild Card** | **Mashup Combos** | **Recommendations** | **Inspiration** | **Confidence & Caveats**
+[OUTPUT FORMAT] **Quick Insight** | **Safe Zone** | **Bold Territory** | **Wild Card** | **Mashup Combos** | **Recommendations** | **Inspiration**

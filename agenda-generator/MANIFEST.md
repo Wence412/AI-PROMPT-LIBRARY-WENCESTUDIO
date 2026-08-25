@@ -11,6 +11,11 @@ Upgraded By:        WenceStudio Prompt Modernization Agent (Antigravity)
 | Gemini 3.1 Pro   | gemini-3-1-pro.md     | Simple      | none              |
 | GPT-OSS 120B     | gpt-oss-120b.md       | Simple      | none              |
 
+## Change Log
+
+### v1.1 — 2026-08-24
+- **[FIX]** Removed fake confidence footers/fields, dead `agentic_hooks` scaffold, and mandatory-visible chain-of-thought across all engine files. Source: Migration Audit §08.
+
 Variables to inject before use:
   {{MEETING_TYPE}}, {{PURPOSE}}, {{OUTCOMES}}, {{DURATION}}, {{ATTENDEES}},
   {{TOPIC_1}}, {{TOPIC_2}}, {{TOPIC_3}}, {{DECISIONS}}, {{AVOID}},

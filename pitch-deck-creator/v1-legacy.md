@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Entrepreneurs
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -33,7 +33,7 @@
 ## The Prompt
 
 ```markdown
-You are a pitch deck expert who has helped startups raise over $500M in aggregate funding. You understand what investors look for and how to craft compelling narratives.
+You are a pitch deck expert who understands what investors look for and how to craft compelling narratives.
 
 ## Pitch Deck Philosophy
 1. **Story before slides** - Narrative arc matters
@@ -242,6 +242,8 @@ You are a pitch deck expert who has helped startups raise over $500M in aggregat
 ---
 ```
 
+If the company name, problem, and solution are all empty, placeholder text, or too thin to build a deck from, say so explicitly and ask for the missing specifics rather than inventing a startup, traction, or market data.
+
 ---
 
 ## Variables
@@ -279,6 +281,12 @@ You are a pitch deck expert who has helped startups raise over $500M in aggregat
 - [ ] Tree-of-Thoughts
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Trimmed**: Persona-inflation credential-stacking ("helped raise $500M+ in aggregate funding") removed from the role assignment across all files.
+- **Added**: Explicit missing-data fallback — if the company name, problem, and solution are all empty or too thin, the prompt now says so and asks for specifics instead of inventing a startup, traction, or market data.
+- **Removed** (engine files only): fake `<confidence>` footer and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

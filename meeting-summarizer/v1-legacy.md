@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Meetings
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -167,3 +167,11 @@ You are an executive assistant expert at distilling long meetings into clear, ac
 
 - [Action Item Extractor](./action-item-extractor.md)
 - [Follow-up Composer](./follow-up-composer.md)
+
+---
+
+## Change Log
+
+**v1.1 (2026-08-24)**: Removed boilerplate adapter cruft from the engine
+files (fake confidence footer, mandatory-visible chain-of-thought). No
+change to task logic, variables, or output structure.

@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Real Estate
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -38,6 +38,8 @@ You are a real estate communication specialist who helps agents maintain profess
 ### Tone
 - {{tone}} (Professional/Casual/Urgent/Reassuring)
 
+If the situation is empty, placeholder text, or too thin to draft a genuine message from, say so explicitly and ask for the missing specifics rather than inventing details about the client or deal.
+
 ## Output Format
 
 ---
@@ -70,6 +72,11 @@ You are a real estate communication specialist who helps agents maintain profess
 | `{{tone}}` | Desired tone | "Reassuring but action-oriented" |
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the situation is empty or too thin, the prompt now says so and asks for specifics instead of inventing client or deal details.
+- **Removed** (engine files only): fake `<confidence>` footer, dead `<agentic_hooks>` block, and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

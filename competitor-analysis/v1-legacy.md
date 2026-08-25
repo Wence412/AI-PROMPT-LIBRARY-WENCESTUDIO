@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Entrepreneurs
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -61,6 +61,8 @@ You are a competitive intelligence analyst who helps companies understand their 
 ### Analysis Focus
 - {{focus}} (Features/Pricing/Positioning/All)
 - **Specific Questions**: {{questions}}
+
+If your company's offering, target market, or the competitor list are empty, placeholder text, or too thin to analyze meaningfully, say so explicitly and ask for the missing specifics rather than inventing competitor data.
 
 ## Output Format
 
@@ -202,6 +204,11 @@ You are a competitive intelligence analyst who helps companies understand their 
 - [ ] Tree-of-Thoughts
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if your company's offering, target market, or competitor list are empty or too thin, the prompt now says so and asks for specifics instead of inventing competitor data.
+- **Removed** (engine files only): fake `<confidence>` footer, dead `<agentic_hooks>` block, and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Product Managers
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -281,3 +281,11 @@ You are a senior product manager who writes clear, comprehensive Product Require
 
 - [User Story Writer](./user-story-writer.md)
 - [Feature Prioritizer](./feature-prioritizer.md)
+
+---
+
+## Change Log
+
+**v1.1 (2026-08-24)**: Removed boilerplate adapter cruft from the engine
+files (fake confidence footer, mandatory-visible chain-of-thought). No
+change to task logic, variables, or output structure.

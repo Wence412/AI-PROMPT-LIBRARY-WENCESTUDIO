@@ -5,8 +5,8 @@
 ## Metadata
 - **Category**: Students & School
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.2
 
 ---
 
@@ -103,3 +103,12 @@ You are a research librarian who helps students find and evaluate academic sourc
 
 - [Essay Improver](./essay-improver.md)
 - [Concept Explainer](./concept-explainer.md)
+
+---
+
+## Change Log
+
+**v1.2 (2026-08-24)**: Removed boilerplate adapter cruft from the engine
+files (fake confidence footer, mandatory-visible chain-of-thought). The
+"AI can fabricate citations" verification warning is unchanged. No change
+to task logic or variables.

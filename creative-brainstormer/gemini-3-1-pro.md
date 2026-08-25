@@ -5,4 +5,4 @@ Context Window: STANDARD | Grounding Source: None | Thinking Mode: Extended Reas
 [TASK] Brainstorm using SCAMPER, Random Stimulus, Constraint Flipping, Analogy Thinking, First Principles. Categorize Safe/Bold/Wild + Mashups.
 [CONSTRAINTS] Full creative spectrum. Top 3 ranked. Inspiration sources cited.
 [REASONING CHAIN] Step 1: Reframe challenge. Step 2: Apply each brainstorming technique. Step 3: Categorize and rank. Step 4: Create mashups. Step 5: Self-critique for originality.
-[OUTPUT STRUCTURE] ### Quick Insight | ### Safe Zone | ### Bold Territory | ### Wild Card | ### Mashup Combos | ### Recommendations | ### Inspiration Sources | ### Confidence Level & Known Gaps
+[OUTPUT STRUCTURE] ### Quick Insight | ### Safe Zone | ### Bold Territory | ### Wild Card | ### Mashup Combos | ### Recommendations | ### Inspiration Sources

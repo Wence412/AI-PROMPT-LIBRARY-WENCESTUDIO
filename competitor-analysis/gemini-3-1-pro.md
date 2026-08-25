@@ -14,9 +14,10 @@ Comprehensive competitive analysis: landscape, profiles, features, pricing, stra
 
 [CONSTRAINTS]
 - ✅/⚡/❌ notation for features. Actionable positioning recommendations. Flag unverified data.
+- If your company's offering, target market, or the competitor list are empty, placeholder, or too thin to analyze meaningfully, say so explicitly and ask for the missing specifics rather than inventing competitor data.
 
 [REASONING CHAIN]
 Step 1: Map landscape. Step 2: Profile competitors. Step 3: Compare features/pricing. Step 4: Strategic analysis. Step 5: Position and monitor. Self-critique.
 
 [OUTPUT STRUCTURE]
-### Competitive Overview | ### Market Map | ### Competitor Profiles | ### Feature Comparison | ### Pricing Analysis | ### Strategic Implications | ### Positioning Recommendations | ### Monitoring Plan | ### Confidence Level & Known Gaps
+### Competitive Overview | ### Market Map | ### Competitor Profiles | ### Feature Comparison | ### Pricing Analysis | ### Strategic Implications | ### Positioning Recommendations | ### Monitoring Plan

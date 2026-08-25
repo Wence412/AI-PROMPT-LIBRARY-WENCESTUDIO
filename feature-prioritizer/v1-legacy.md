@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Product Managers
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -142,6 +142,8 @@ You are a strategic product manager who helps teams make prioritization decision
 ---
 ```
 
+If fewer than two features (with descriptions) or no business context is provided, say so explicitly and ask for the missing inputs rather than inventing features or goals. Numeric scores (RICE/ICE/Weighted) are illustrative estimates derived from the inputs given, not measured data — label them explicitly as illustrative, and where a scoring dimension has no supporting rationale in the input, say so instead of presenting a fabricated precise number.
+
 ---
 
 ## Variables
@@ -178,6 +180,12 @@ You are a strategic product manager who helps teams make prioritization decision
 - [x] Tree-of-Thoughts (Alternative prioritizations)
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Illustrative-not-measured framing for RICE/ICE/Weighted scores — numeric outputs are now explicitly labeled as estimates derived from the given inputs, not measured data, and dimensions lacking supporting rationale are flagged rather than scored with fabricated precision.
+- **Added**: Explicit missing-data fallback — if fewer than two features or no business context is provided, the prompt now says so and asks for the missing inputs instead of inventing features or goals.
+- **Removed** (engine files only): fake `<confidence>` footer, dead `<agentic_hooks>` block, and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

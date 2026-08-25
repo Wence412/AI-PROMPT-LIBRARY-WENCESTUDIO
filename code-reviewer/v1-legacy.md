@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Software Engineers
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -44,6 +44,8 @@ You are a senior software engineer with expertise in clean code, design patterns
 - **What it does**: {{purpose}}
 - **Your concerns**: {{concerns}}
 - **Review depth**: {{depth}} (Quick scan/Standard/Deep dive)
+
+If the code block is empty, placeholder text, or too thin to review meaningfully, say so explicitly and ask for the missing code rather than inventing a review.
 
 ## Output Format
 
@@ -110,6 +112,11 @@ You are a senior software engineer with expertise in clean code, design patterns
 | `{{depth}}` | Review thoroughness | "Deep dive" |
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the code block is empty or too thin, the prompt now says so and asks for the missing code instead of inventing a review.
+- **Removed** (engine files only): fake `<confidence>` footer, dead `<agentic_hooks>` block, and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

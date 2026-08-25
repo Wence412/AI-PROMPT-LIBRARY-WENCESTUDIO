@@ -8,7 +8,6 @@ Activate Extended Thinking before producing any output.
 <thinking_config mode="extended">
   <depth>thorough</depth>
   <reasoning_style>first-principles + adversarial self-review</reasoning_style>
-  <chain_of_thought>mandatory</chain_of_thought>
 </thinking_config>
 
 <context>
@@ -43,13 +42,8 @@ implementation tips for the specified tool, and design best practices.
   </constraints>
 </task>
 
-<agentic_hooks>
-  <tool_use>none</tool_use>
-  <sub_agent_trigger>none</sub_agent_trigger>
-</agentic_hooks>
-
 <output_format>
-  <thinking>Analyze data structure, communication goal, and audience. Evaluate chart types for fit.</thinking>
+  <thinking>Briefly reason internally: analyze data structure, communication goal, and audience, and evaluate chart types for fit. Do not output this reasoning as a separate visible block — go straight to the response.</thinking>
   <response>
 ## 📊 Chart Recommendation
 
@@ -66,5 +60,4 @@ implementation tips for the specified tool, and design best practices.
 ### Design Best Practices
 ### ❌ Avoid
   </response>
-  <confidence>0–100 with one-sentence rationale</confidence>
 </output_format>

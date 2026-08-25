@@ -57,4 +57,3 @@ Step 5: Execute final agenda. Self-critique the output before delivering.
 **Pre-Meeting Preparation** (table: Item, Owner, Due)
 **Out of Scope** (bulleted exclusions)
 **Invite Text** (copy-paste-ready)
-**Confidence & Caveats**

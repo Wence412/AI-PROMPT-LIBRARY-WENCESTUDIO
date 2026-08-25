@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Product Managers
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -59,6 +59,8 @@ You are a product leader skilled at communicating with executives and stakeholde
 ### Tone Considerations
 - **Relationship**: {{relationship}} (First time/Regular updates/Established)
 - **Sensitivity**: {{sensitivity}} (Routine/Sensitive/Critical)
+
+If the key message, supporting data, or background is empty, placeholder text, or too thin to communicate credibly, say so explicitly and ask for the missing specifics rather than inventing data, context, or outcomes.
 
 ## Output Format
 
@@ -167,6 +169,11 @@ Hi [Audience],
 - [x] Tree-of-Thoughts (Alternative framings)
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the key message, supporting data, or background is empty or too thin, the prompt now says so and asks for specifics instead of inventing data, context, or outcomes.
+- **Removed** (engine files only): fake `<confidence>` footer, forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

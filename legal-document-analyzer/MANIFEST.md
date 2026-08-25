@@ -1,7 +1,7 @@
 # PROMPT UPDATE MANIFEST
 Library Entry: legal-document-analyzer.md | Category: Legal | Updated: 2026-08-24
 Upgraded By: WenceStudio Prompt Modernization Agent (UPOS-GF v3.0)
-Version: 2.0.0 (MAJOR — merge + safety-critical change)
+Version: 2.0.1 (PATCH — mechanical boilerplate cleanup)
 
 Governance Gate: 🟠 HUMAN REVIEW (legal counsel) recommended before relying on
   any negotiation or execution recommendation from this prompt.
@@ -16,7 +16,14 @@ Variables: {{DOCUMENT_TYPE}}, {{PARTIES}}, {{JURISDICTION}}, {{INDUSTRY}}, {{DEA
 
 ## Change Log
 
-### v2.0.0 — 2026-08-24 (this update)
+### v2.0.1 — 2026-08-25 (this update)
+- **[FIX]** Removed the remaining `<chain_of_thought>mandatory</chain_of_thought>`
+  boilerplate from claude-4-6.md and converted the `<thinking>` output node
+  into internal-reasoning-only guidance, per audit §08's library-wide
+  mechanical fix. No change to Negotiation Mode, the Hallucination Guard, or
+  any other behavior.
+
+### v2.0.0 — 2026-08-24
 - **[MERGE]** Absorbed `contract-reviewer` into this entry, per Migration
   Audit §07 finding "contract-reviewer ⇄ legal-document-analyzer — MERGE
   (near-identical purpose)." This entry was chosen as canonical because it

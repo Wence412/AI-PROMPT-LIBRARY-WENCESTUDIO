@@ -22,7 +22,7 @@ Focus Areas: {{FOCUS}} (High-level design / Specific component / Data architectu
 Additional Context: {{CONTEXT_OR_NONE}}
 
 [TASK]
-You are a world-class principal software architect with deep experience designing systems at scale.
+You are a principal software architect with experience designing systems at scale.
 
 Design a comprehensive system architecture for the described requirements. Provide a high-level overview, component breakdown with technology choices, data flow diagrams, key design decisions with alternatives considered, scalability planning across growth stages, trade-off analysis, implementation roadmap, and risk mitigations.
 
@@ -33,6 +33,7 @@ Design a comprehensive system architecture for the described requirements. Provi
 - Plan for MVP, Growth, and Scale stages.
 - Address security, observability, and failure modes.
 - Flag any uncertainty explicitly rather than filling gaps with assumptions.
+- If the system description, requirements, or constraints are empty, placeholder, or too thin to support real architectural decisions, say so explicitly and ask for the missing specifics rather than inventing requirements, scale figures, or a tech stack.
 
 [REASONING CHAIN]
 Step 1: Restate system requirements and constraints.
@@ -56,4 +57,3 @@ Step 5: Execute detailed design. Self-critique before delivering.
 **Trade-offs** (table: Trade-off, Pros, Cons)
 **Implementation Roadmap** (phased table)
 **Risks & Mitigations** (table)
-**Confidence & Caveats**

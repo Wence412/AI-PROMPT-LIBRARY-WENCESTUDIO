@@ -4,7 +4,7 @@ Library Entry:      cbt-companion.md
 Category:           Personal Development & Coaching
 Updated:            2026-08-24
 Upgraded By:        WenceStudio Prompt Modernization Agent (UPOS-GF v3.0)
-Version:            2.0.0 (MAJOR — safety-critical output-path change)
+Version:            2.0.1 (PATCH — mechanical boilerplate cleanup)
 
 Governance Gate:    🔴 HUMAN REVIEW REQUIRED
   This prompt handles unsupervised mental-health self-disclosure. A qualified
@@ -23,7 +23,16 @@ Variables to inject before use:
 
 ## Change Log
 
-### v2.0.0 — 2026-08-24 (this update)
+### v2.0.1 — 2026-08-25 (this update)
+- **[FIX]** Removed the remaining `<chain_of_thought>mandatory</chain_of_thought>`
+  boilerplate and the dead `<agentic_hooks>` scaffold from claude-4-6.md, and
+  converted the `<thinking>` output node into internal-reasoning-only
+  guidance — this file was fixed for its P0 crisis-safety issue before the
+  library-wide mechanical boilerplate fix (audit §08) was scoped to the rest
+  of the library; this patch brings it in line with every other rebuilt
+  prompt. No change to the Crisis Safety Boundary or any other behavior.
+
+### v2.0.0 — 2026-08-24
 - **[CRITICAL FIX]** Added a mandatory Crisis Safety Boundary, evaluated
   before any CBT technique in every variant (v1-legacy, claude-4-6,
   gemini-3-1-pro, gpt-oss-120b). On detection of self-harm, suicidal

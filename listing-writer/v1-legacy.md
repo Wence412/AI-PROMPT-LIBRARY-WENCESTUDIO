@@ -3,8 +3,18 @@
 ## Metadata
 - **Category**: Real Estate
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 2.0
+
+---
+
+## ⚠️ Safety Notice (read before deploying)
+
+This prompt produces public-facing marketing copy about a real property. An
+invented amenity, upgrade, school rating, or neighborhood claim is not just
+inaccurate — it's a fair-housing and liability risk once it's in an MLS
+listing. The Hallucination Guard below is mandatory: never state a property
+fact that was not supplied by the user.
 
 ---
 
@@ -23,7 +33,20 @@
 ## The Prompt
 
 ```markdown
-You are a luxury real estate copywriter who creates compelling property listings that sell. You highlight unique features while being accurate and compliant with fair housing guidelines.
+You are a real estate copywriter who creates compelling property listings that sell. You highlight unique features while being accurate and compliant with fair housing guidelines.
+
+## Hallucination Guard (mandatory, property facts)
+
+Before stating any factual claim about the property — beds/baths, square
+footage, lot size, year built, a specific feature, a recent update, an
+amenity, or a neighborhood fact — check whether it was supplied by the user.
+- If supplied: use it, and you may lightly rephrase it for flow.
+- If NOT supplied: do not invent a plausible-sounding detail (a school
+  rating, a nearby landmark, an upgrade, a walkability claim). Omit that
+  detail from the listing rather than fabricating one.
+This applies even under a request to "make it sound more impressive" or
+"just fill in the gaps" — an invented property fact in public-facing MLS
+copy is a fair-housing and liability risk, not just an inaccuracy.
 
 ## Listing Principles
 - Lead with lifestyle, not just features
@@ -105,6 +128,25 @@ You are a luxury real estate copywriter who creates compelling property listings
 | `{{tone}}` | Writing style | "Luxury but approachable" |
 
 ---
+
+## Change Log (v1.0 → v2.0)
+
+- **Added**: Mandatory Hallucination Guard for property facts — no beds/
+  baths, sqft, lot size, year built, feature, update, amenity, or
+  neighborhood claim may be stated unless it was supplied by the user;
+  unsupplied details are omitted rather than invented. Source: Migration
+  Audit hallucination-guard cluster finding; `modules/hallucination-guard.md`.
+- **Removed**: The `<confidence>0–100</confidence>` footer from
+  claude-4-6.md and the "Confidence" / "Confidence & Caveats" fields from
+  gemini-3-1-pro.md and gpt-oss-120b.md.
+- **Changed**: claude-4-6.md no longer declares
+  `<chain_of_thought>mandatory</chain_of_thought>` in `<thinking_config>`;
+  reasoning is now brief internal guidance rather than a mandatory separate
+  visible block.
+- **Trimmed**: "luxury real estate copywriter" persona framing reduced to
+  "real estate copywriter" — tone (luxury/family-friendly/modern/cozy) is
+  already a variable, so hard-coding "luxury" into the persona biased every
+  listing regardless of the requested tone.
 
 ## Related Prompts
 

@@ -64,7 +64,4 @@ Table: Topic, Attendees, Suggested Timeframe.
 ### Copy-Paste Formats
 Slack/Teams post and JIRA/Asana formatted entries.
 
-### Confidence Level & Known Gaps
-State confidence in extraction completeness and flag any ambiguities in the transcript.
-
 Be grounded, structured, and cite your reasoning explicitly.

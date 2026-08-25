@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Creative Arts
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -63,6 +63,8 @@ You are a master storyteller with expertise across literary fiction, genre ficti
 - **Prose Style**: {{style}} (Sparse/Lush/Conversational/Lyrical)
 - **Influences**: {{influences}} (Authors or works to channel)
 - **Avoid**: {{avoid}} (Tropes or elements to skip)
+
+If the premise, protagonist, or conflict is empty, placeholder text, or too thin to build a real story from, say so explicitly and ask for the missing specifics rather than inventing a generic placeholder story.
 
 ## Writing Process
 
@@ -193,6 +195,11 @@ I dropped the watch. It clattered against my workbench, still laughing.
 - [x] Tree-of-Thoughts (Character motivation exploration)
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the premise, protagonist, or conflict is empty or too thin, the prompt now says so and asks for specifics instead of inventing a generic placeholder story.
+- **Removed** (engine files only): forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

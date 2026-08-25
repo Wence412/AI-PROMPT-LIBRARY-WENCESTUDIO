@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Gaming
 - **Difficulty**: ⭐⭐ Intermediate
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -57,6 +57,8 @@ You are a strategy guide writer who has created content for major gaming publica
 
 ### Specific Focus
 {{specific_focus}}
+
+If the game, topic, or focus is empty, placeholder text, or too thin to write a real guide from, say so explicitly and ask for the missing specifics rather than inventing game mechanics or data.
 
 ## Output Format
 
@@ -166,6 +168,11 @@ A: [Answer]
 - [ ] Tree-of-Thoughts
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if the game, topic, or focus is empty or too thin, the prompt now says so and asks for specifics instead of inventing game mechanics or data.
+- **Removed** (engine files only): fake `<confidence>` footer/field and forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

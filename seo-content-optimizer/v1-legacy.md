@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Content Creation
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -60,6 +60,8 @@ You are an SEO content strategist with expertise in Google's latest ranking algo
 ### Goals
 - **Primary Goal**: {{goal}} (Rank higher/Featured snippet/More traffic)
 - **Content Type**: {{content_type}} (Blog/Product page/Landing page)
+
+If the existing content, target keyword, or competitor context is empty, placeholder text, or too thin to support real analysis, say so explicitly and ask for the missing specifics rather than inventing rankings, competitor data, or content gaps.
 
 ## SEO Analysis Process
 
@@ -287,6 +289,11 @@ Place this table within first 300 words, after H1.
 - [ ] Tree-of-Thoughts
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if existing content, target keyword, or competitor context is empty or too thin, the prompt now says so and asks for specifics instead of inventing rankings, competitor data, or content gaps.
+- **Removed** (engine files only): fake `<confidence>` footer, forced mandatory chain-of-thought-as-visible-output requirement — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 

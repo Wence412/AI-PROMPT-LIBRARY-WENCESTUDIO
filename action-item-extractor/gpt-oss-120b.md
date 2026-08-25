@@ -62,6 +62,3 @@ Table: Topic, Attendees, Suggested Timeframe.
 
 **Copy-Paste Formats**
 Slack/Teams post and JIRA/Asana formatted entries.
-
-**Confidence & Caveats**
-State confidence in extraction completeness and flag any ambiguities.

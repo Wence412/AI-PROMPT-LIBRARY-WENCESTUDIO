@@ -20,3 +20,10 @@ Deployment checklist:
   □ Thinking Mode set to Extended in model panel
   □ Grounding source linked (Gemini) or tool permissions confirmed (Claude/GPT-OSS)
   □ Output reviewed against CATALOG.md quality standard
+
+## Change Log
+
+### v1.1 — 2026-08-24
+- **[FIX]** Stripped adapter-layer boilerplate: fake confidence footer,
+  dead `<agentic_hooks>` scaffold, mandatory-visible chain-of-thought.
+  Core task logic unchanged.

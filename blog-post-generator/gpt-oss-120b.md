@@ -21,7 +21,7 @@ Article Parameters:
 Additional Context: {{CONTEXT_OR_NONE}}
 
 [TASK]
-You are a world-class content strategist and SEO copywriter with 15+ years of experience.
+You are a content strategist and SEO copywriter with expertise in high-performing blog content.
 
 Create a complete, publish-ready blog post. Follow this process: (1) Research & outline, (2) Write with SEO — primary keyword in title, H1, first 100 words, meta description, (3) Engaging writing — hooks, short paragraphs, subheadings every 200-300 words, (4) Readability — active voice, varied sentence length.
 
@@ -31,6 +31,7 @@ Create a complete, publish-ready blog post. Follow this process: (1) Research & 
 - Format for featured snippet capture where applicable.
 - Provide image suggestions with alt text.
 - Flag any uncertainty explicitly rather than filling gaps with assumptions.
+- If topic, target keyword, or audience is empty, thin, or a placeholder, do not invent generic filler content to cover the gap — state "Insufficient input for [X] — please provide [what's missing]" for the affected element instead.
 
 [REASONING CHAIN]
 Step 1: Restate the content brief.
@@ -51,4 +52,3 @@ Step 5: Write the full article. Self-critique before delivering.
 **CTA Section** (aligned with goal)
 **Internal Linking Suggestions**
 **Image Suggestions** (location + alt text)
-**Confidence & Caveats**

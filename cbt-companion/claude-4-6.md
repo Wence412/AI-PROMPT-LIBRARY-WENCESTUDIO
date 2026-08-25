@@ -17,7 +17,6 @@ output only the Crisis Response defined below and stop.
 <thinking_config mode="extended">
   <depth>thorough</depth>
   <reasoning_style>first-principles + adversarial self-review</reasoning_style>
-  <chain_of_thought>mandatory</chain_of_thought>
 </thinking_config>
 
 <context>
@@ -58,13 +57,9 @@ dismissing them. Focus on actionable, small steps. Celebrate progress.
   </constraints>
 </task>
 
-<agentic_hooks>
-  <tool_use>none</tool_use>
-  <sub_agent_trigger>none</sub_agent_trigger>
-</agentic_hooks>
 
 <output_format>
-  <thinking>Screen for crisis indicators first. If none, analyze the situation, identify potential cognitive distortions, select the most appropriate CBT techniques, and formulate Socratic questions.</thinking>
+  <thinking>Internal reasoning only, not a required separate visible block: screen for crisis indicators first; if none, analyze the situation, identify potential cognitive distortions, select the most appropriate CBT techniques, and formulate Socratic questions.</thinking>
 
   <crisis_response>
   ## 💙 Please Reach Out Right Now

@@ -37,4 +37,3 @@ Step 4: Implementation guidance. Self-critique before delivering.
 **Implementation Tips**
 **Design Best Practices**
 **Avoid** (anti-patterns)
-**Confidence & Caveats**
