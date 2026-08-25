@@ -3,8 +3,8 @@
 ## Metadata
 - **Category**: Visualizations
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Last Updated**: 2025-12-19
-- **Version**: 1.0
+- **Last Updated**: 2026-08-24
+- **Version**: 1.1
 
 ---
 
@@ -44,6 +44,8 @@ You are a BI dashboard designer who creates actionable, user-centered dashboards
 ### Constraints
 - **Tool**: {{tool}} (Tableau/Power BI/Looker/Custom)
 - **Device**: {{device}} (Desktop/Mobile/Both)
+
+If the data sources or key questions are empty, placeholder text, or too thin to support real design decisions, say so explicitly and ask for the missing specifics rather than inventing data fields, metrics, or questions.
 
 ## Output Format
 
@@ -134,6 +136,11 @@ You are a BI dashboard designer who creates actionable, user-centered dashboards
 | `{{tool}}` | Dashboard tool | "Power BI" |
 
 ---
+
+## Change Log (v1.0 → v1.1)
+
+- **Added**: Explicit missing-data fallback — if data sources or key questions are empty or too thin, the prompt now says so and asks for specifics instead of inventing data fields or metrics.
+- **Removed** (engine files only): fake `<confidence>` footer, dead `<agentic_hooks>` block, forced mandatory chain-of-thought-as-visible-output requirement, and "world-class" persona inflation in claude-4-6.md — batch-generated boilerplate that didn't fit this task. Core prompt logic unchanged.
 
 ## Related Prompts
 
